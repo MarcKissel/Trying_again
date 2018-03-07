@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15
 
-title = "Academic"
+title = "Welcome"
 
 # Order that this section will appear in.
 weight = 3
@@ -19,4 +19,4 @@ weight = 3
 
 +++
 
-Welcome to my website! 
+Thanks for visiting! 
