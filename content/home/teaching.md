@@ -15,14 +15,20 @@ weight = 60
 
 +++
 
-This is an example of using the *custom* widget to create your own homepage section.
 
-I am a teaching instructor for the following courses at University X:
+An anthropological perspective is an integral part of a college student’s education and will serve them well a s they become the next generation of student-scholars. In class I direct content towards a better understanding of the causes and consequences of human variation, equipping students with the skills to apply anthropological concepts to their daily lives.
 
-- CS101: An intro to computer science
-- CS102: An intro to computer science
-- CS103: An intro to computer science
-- CS104: An intro to computer science
-- CS105: An intro to computer science
-- CS106: An intro to computer science
-- CS107: An intro to computer science
+*Classes taught*
+
+- Introduction to Anthropology
+- Gender, Race, and Class
+- Fundamentals of Biological Anthropology
+- Our Primate Heritage
+- Human Evolution
+- Human Skeletal Anatomy
+- Human Evolution: Violence and Virtues
+- Learning R for Statistical Computing
+- Introduction to World Prehistory
+- Archaeology of North America
+
+
