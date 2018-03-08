@@ -10,7 +10,7 @@ summary = "Looking at the biological and archaeological roots of modern human be
 
 
 # Optional image to display on homepage (relative to `static/img/` folder).
- image_preview = ""
+ image_preview = "Paul_Gauguin.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

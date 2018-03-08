@@ -9,7 +9,7 @@ title = "Transdisiplinary work"
 summary = "Working with scholars in the humanities to better understand what it means to be human."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
- image_preview = ""
+ image_preview = "human_wisdom.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
