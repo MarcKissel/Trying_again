@@ -231,6 +231,11 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "//github.com/MarcKissel"
+  
+  [[params.social]]
+    icon = "academia"
+    icon_pack = "ai"
+    link = "https://nd.academia.edu/MarcKissel"
 
 
 # Navigation Links
