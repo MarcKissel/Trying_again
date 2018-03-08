@@ -16,7 +16,7 @@ weight = 60
 +++
 
 
-An anthropological perspective is an integral part of a college student’s education and will serve them well a s they become the next generation of student-scholars. In class I direct content towards a better understanding of the causes and consequences of human variation, equipping students with the skills to apply anthropological concepts to their daily lives.
+An anthropological perspective is an integral part of a college student’s education and will serve them well as they become the next generation of student-scholars. In class I direct content towards a better understanding of the causes and consequences of human variation, equipping students with the skills to apply anthropological concepts to their daily lives.
 
 *Classes taught*
 
