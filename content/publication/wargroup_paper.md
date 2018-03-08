@@ -63,5 +63,5 @@ highlight = true
 
 +++
 
-for more information please see the [blog post here](https://marckisseltemp.netlify.com/post/warfare/)
+for more information please see the [blog post here](https://marckissel.netlify.com/post/warfare/)
 
