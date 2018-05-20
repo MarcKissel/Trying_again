@@ -10,7 +10,7 @@ title = "Marc Kissel's Website"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; 2018. Built with the R Blogdown pacakage"
+copyright = "&copy; 2018. Built with the R Blogdown package"
 
 theme = "hugo-academic"
 enableEmoji = true
