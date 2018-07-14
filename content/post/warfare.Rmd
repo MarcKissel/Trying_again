@@ -148,6 +148,13 @@ DCI_motion <-ggplot(DCI_interact, aes(x= Year, y = X, group =country, frame = Ye
 ggplotly(DCI_motion, height = 600, width = 800)
 
 
+
+
+
+
+
+
+
 #ggplotly(DCI_motion, height = 600, width = 800)
 ```
 
