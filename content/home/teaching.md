@@ -30,5 +30,9 @@ An anthropological perspective is an integral part of a college student’s educ
 - Learning R for Statistical Computing
 - Introduction to World Prehistory
 - Archaeology of North America
+- [Human Evolution](https://marckissel.netlify.com/post/human-evolution/) 
 
+ human-evolution
+ 
+ [Natalia Reagan](https://nataliareagan.com/)
 
