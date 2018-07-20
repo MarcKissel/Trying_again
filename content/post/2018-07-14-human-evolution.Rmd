@@ -1,14 +1,13 @@
 ---
-title: Human Evolution
-author: Marc Kissel
+title: "Human Evolution"
+author: "Marc Kissel"
 date: '2018-07-14'
-slug: human-evolution
-categories:
-  - Teaching
-tags:
-  - Teaching
 header:
   caption: ''
   image: ''
+slug: human-evolution
+tags: Teaching
+categories: Teaching
 ---
 
+maybe this works
