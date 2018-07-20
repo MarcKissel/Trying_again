@@ -116,14 +116,14 @@ htmlwidgets::saveWidget(d1, file = "d1.html", selfcontained = TRUE)
 
 ###another take
 
-```{r eval=FALSE, include=FALSE}
+```{r echo=FALSE}
 library(htmlTable)
-htmlTable(d1)
+htmlTable(cc)
 ```
 
 or
 
-```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 knitr::kable(cc, caption = "This is the dataset.")
 ```
 
