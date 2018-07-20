@@ -1,0 +1,13 @@
+---
+title: tryinganother
+author: marc kissel
+date: '2018-07-19'
+slug: tryinganother
+categories: []
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+PLEASE!!!!
