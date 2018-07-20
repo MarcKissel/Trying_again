@@ -24,13 +24,15 @@ An anthropological perspective is an integral part of a college student’s educ
 - Gender, Race, and Class
 - Fundamentals of Biological Anthropology
 - Our Primate Heritage
-- [Human Evolution](https://marckissel.netlify.com/post/human-evolution/)
+- Human Evolution
 - Human Skeletal Anatomy
 - Human Evolution: Violence and Virtues
 - Learning R for Statistical Computing
 - Introduction to World Prehistory
 - Archaeology of North America
+- [Human Evolution](https://marckissel.netlify.com/post/human-evolution/) 
 
-
-
+ human-evolution
+ 
+ [Natalia Reagan](https://nataliareagan.com/)
 
