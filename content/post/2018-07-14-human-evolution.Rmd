@@ -98,9 +98,18 @@ p_box
 
 Finally, here is the data set the visualizations come from:
 
-```{r, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE}
-datatable(cc)
+```{r, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE, include=FALSE}
+d1 <- datatable(cc)
 ```
 
 
 
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(htmlwidgets)
+library(htmltools)
+
+htmlwidgets::saveWidget(d1, file = "d1.html", selfcontained = TRUE)
+
+```
+
+<iframe seamless src="../d1/index.html" width="100%" height="500"></iframe>
