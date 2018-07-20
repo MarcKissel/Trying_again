@@ -30,8 +30,9 @@ library(plotly)
 This is a temp version of data for my Human Evolution course next Fall. Wanted to spend the first day showing some data and talking about how we can visualize hominin evolution.
 
 
+##interactive plot
 
-Below is a scatterplot of more cranial data. Age is in millions of years. Mouse over to see info (update coming with more interactive features). 
+Below is a scatterplot of the cranial capacity of various hominin species (species designation taken from referenced sources. Your mileage may vary as to whether these are true species or not...). Age is in millions of years. Mouse over to see info (update coming with more interactive features). 
 
 ```{r, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE}
 cc <-read_csv("CC_data_Updated_2.csv") #read in data
@@ -47,7 +48,9 @@ ggplotly(p2)
 ```
 
 
-Finally, boxplots of cranial capacity by species
+##boxplot
+
+Boxplot of the cranial capacities:
 
 
 
@@ -61,10 +64,10 @@ p_box
 
 
 
+##Ridge plot
 
 
-
-The graph below is a [ridge plot](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html), which is a density plot aligned on a horizontal scale. It shows the cranial capacity of various hominin species (species designation taken from referenced sources. Your mileage may vary as to whether these are true species or not...). Dates are estimates for first and last appearance dates. 
+The graph below is a [ridge plot](https://cran.r-project.org/web/packages/ggridges/vignettes/introduction.html), which is a density plot aligned on a horizontal scale. It shows the cranial capacity of a subset of the hominin species from above. Dates are estimates for first and last appearance dates of the species. 
 
 
 
