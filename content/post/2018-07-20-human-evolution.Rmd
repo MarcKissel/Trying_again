@@ -43,19 +43,19 @@ The graph below is a [ridge plot](https://cran.r-project.org/web/packages/ggridg
 ```{r, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE }
 plot8 <- ggplot(cc, aes(x = Cranial_capacity, y = Species_2, fill = Species_2)) + geom_density_ridges() + theme_ridges() + labs(title = "plot of cranial size in CC", subtitle = "data from Schoenemann 2013 & Hawks et al 2017")
 plot8a <- plot8 + annotate("text", label = "", x =1, y =1) + theme(axis.title.y = element_blank())
-plot8a + annotate("text", label = "3.18 - 3 mya", x = 220, y = 1.4) +
-  annotate("text", label = "3.1-2.5 mya", x = 220, y = 2.4) +
-  annotate("text", label = "1.88-1.5 mya", x = 220, y = 3.4) +
-  annotate("text", label = "1.88-1.85 mya", x = 220, y = 4.4) +
-  annotate("text", label = "1.85-1.4 mya", x = 220, y = 5.4) +
-  annotate("text", label = "1.78-1.57 mya", x = 220, y = 6.4) +
-  annotate("text", label = "1.7-.236 mya", x = 220, y = 7.4) +
-  annotate("text", label = ".800-.130 mya", x = 220, y = 8.5) +
-  annotate("text", label = ".565-.565 mya", x = 220, y = 9.4) +
-  annotate("text", label = ".335-.236 mya", x = 220, y = 10.4) +
-  annotate("text", label = ".250-.010 mya", x = 220, y = 11.4) +
-  annotate("text", label = ".130-.040 mya", x = 220, y = 12.4) +
-  annotate("text", label = "by Marc Kissel", x =1500, y =.8)
+plot8a + annotate("text", size =3 , label = "3.18 - 3 mya", x = 150, y = 1.4) +
+  annotate("text", size =3, label = "3.1-2.5 mya", x = 150, y = 2.4) +
+  annotate("text", size =3, label = "1.88-1.5 mya", x = 150, y = 3.4) +
+  annotate("text", size =3 ,label = "1.88-1.85 mya", x = 150, y = 4.4) +
+  annotate("text", size =3 ,label = "1.85-1.4 mya", x = 150, y = 5.4) +
+  annotate("text", size =3 , label = "1.78-1.57 mya", x = 150, y = 6.4) +
+  annotate("text", size =3 ,label = "1.7-.236 mya", x = 150, y = 7.4) +
+  annotate("text", size =3 ,label = ".800-.130 mya", x = 150, y = 8.5) +
+  annotate("text", size =3 ,label = ".565-.565 mya", x = 150, y = 9.4) +
+  annotate("text", size =3 ,label = ".335-.236 mya", x = 150, y = 10.4) +
+  annotate("text", size =3 ,label = ".250-.010 mya", x = 150, y = 11.4) +
+  annotate("text", size =3 ,label = ".130-.040 mya", x = 150, y = 12.4) +
+  annotate("text", size =3 ,label = "by Marc Kissel", x =1500, y =.8)
 ```
 
 
