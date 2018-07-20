@@ -88,3 +88,28 @@ p_box
 
 #ggplotly(p_box, height = 600, width = 800)
 ```
+
+
+###datatable
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(DT)
+library(tidyverse)
+
+d1 <- cc %>% 
+  datatable()
+
+cc
+
+```
+
+
+```{r{r, message=FALSE, warning=FALSE, include=FALSE}
+library(htmlwidgets)
+library(htmltools)
+
+htmlwidgets::saveWidget(d1, file = "d1.html", selfcontained = TRUE)
+
+```
+
+<iframe seamless src="../d1/index.html" width="100%" height="500"></iframe>
