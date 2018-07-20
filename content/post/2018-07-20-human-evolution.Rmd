@@ -48,13 +48,12 @@ plot8a + annotate("text", size =3 , label = "3.18 - 3 mya", x = 150, y = 1.4) +
   annotate("text", size =3, label = "1.88-1.5 mya", x = 150, y = 3.4) +
   annotate("text", size =3 ,label = "1.88-1.85 mya", x = 150, y = 4.4) +
   annotate("text", size =3 ,label = "1.85-1.4 mya", x = 150, y = 5.4) +
-  annotate("text", size =3 , label = "1.78-1.57 mya", x = 150, y = 6.4) +
-  annotate("text", size =3 ,label = "1.7-.236 mya", x = 150, y = 7.4) +
-  annotate("text", size =3 ,label = ".800-.130 mya", x = 150, y = 8.5) +
-  annotate("text", size =3 ,label = ".565-.565 mya", x = 150, y = 9.4) +
-  annotate("text", size =3 ,label = ".335-.236 mya", x = 150, y = 10.4) +
-  annotate("text", size =3 ,label = ".250-.010 mya", x = 150, y = 11.4) +
-  annotate("text", size =3 ,label = ".130-.040 mya", x = 150, y = 12.4) +
+  annotate("text", size =3 ,label = "1.7-.236 mya", x = 150, y = 6.4) +
+  annotate("text", size =3 ,label = ".800-.130 mya", x = 150, y = 7.5) +
+  annotate("text", size =3 ,label = ".565-.565 mya", x = 150, y = 8.4) +
+  annotate("text", size =3 ,label = ".335-.236 mya", x = 150, y = 9.4) +
+  annotate("text", size =3 ,label = ".250-.010 mya", x = 150, y = 10.4) +
+  annotate("text", size =3 ,label = ".130-.040 mya", x = 150, y = 11.4) +
   annotate("text", size =3 ,label = "by Marc Kissel", x =1500, y =.8)
 ```
 
