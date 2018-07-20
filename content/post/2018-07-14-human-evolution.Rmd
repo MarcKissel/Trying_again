@@ -95,18 +95,3 @@ p_box
 
 
 ###interactive table of the data
-
-Finally, here is the data set the visualizations come from:
-
-
-```{r echo=FALSE}
-library(htmlTable)
-htmlTable(cc)
-```
-
-or
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
-knitr::kable(cc, caption = "This is the dataset.")
-```
-
