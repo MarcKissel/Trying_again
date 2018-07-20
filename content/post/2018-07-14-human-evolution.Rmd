@@ -98,23 +98,6 @@ p_box
 
 Finally, here is the data set the visualizations come from:
 
-```{r eval=FALSE, error=FALSE, message=FALSE, warning=FALSE, include=FALSE}
-d1 <- datatable(cc)
-```
-
-
-
-```{r eval=FALSE, message=FALSE, warning=FALSE, include=FALSE}
-library(htmlwidgets)
-library(htmltools)
-
-htmlwidgets::saveWidget(d1, file = "d1.html", selfcontained = TRUE)
-
-```
-
-
-
-###another take
 
 ```{r echo=FALSE}
 library(htmlTable)
