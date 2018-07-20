@@ -113,3 +113,12 @@ htmlwidgets::saveWidget(d1, file = "d1.html", selfcontained = TRUE)
 ```
 
 <iframe seamless src="../d1/index.html" width="100%" height="500"></iframe>
+
+
+###another take
+
+```{r}
+library(htmlTable)
+htmlTable(d1)
+```
+
