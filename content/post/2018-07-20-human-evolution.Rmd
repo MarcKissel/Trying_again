@@ -79,7 +79,7 @@ cc$Specimen<-iconv(enc2utf8(cc$Specimen),sub="byte") #fix the format of Specimen
 
 
 
-plot10 <- ggplot(cc, aes(x = Cranial_capacity, y = reorder(Species_2, -date2 ),fill = Species_2)) + geom_density_ridges() + theme_ridges() + labs( caption = "data from Schoenemann 2013 & Hawks et al 2017")
+plot10 <- ggplot(cc, aes(x = Cranial_capacity, y = reorder(Species_2, -date2 ),fill = Species_2)) + geom_density_ridges() + theme_ridges() + labs( caption = "data from Schoenemann 2013 & Hawks et al 2017", fill ="Species")
 
 plot10a <- plot10 + annotate("text", label = "", x =1, y =1) + theme(axis.title.y = element_blank()) + labs(x="Cranial Capacity in cm^3")
 
