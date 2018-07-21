@@ -88,17 +88,19 @@ plot10a
 ```
 
 
-##some data
+##Data
 
-Tables of data (still trying to make this look nice...)
+datatable used to make images
 
-```{r datatable}
-cc %>% group_by(Species_2) %>% summarise(mean(Cranial_capacity))
-
-
+```{r data wrangle, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE}
+library(knitr)
+library(kableExtra)
+cc_edited <- cc %>% select(Specimen, Species_2, Cranial_capacity, Age_in_MA, Source)
+cc_edited <- cc_edited %>% rename(Speices = Species_2)
+kable(cc_edited,'html') %>% 
+  kable_styling(bootstrap_options = c("striped", "hover", "responsive")) %>% scroll_box(width = "700px", height = "300px")
 
 ```
-
 
 
 
