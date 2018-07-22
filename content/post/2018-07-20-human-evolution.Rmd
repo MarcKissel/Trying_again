@@ -48,6 +48,7 @@ ggplotly(p2)
 ```
 
 
+
 ##boxplot
 
 Boxplot of the cranial capacities:
@@ -90,7 +91,7 @@ plot10a
 
 ##Data
 
-datatable used to make images
+here is the main data used to make the above figures
 
 ```{r data wrangle, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE}
 library(knitr)
@@ -99,6 +100,17 @@ cc_edited <- cc %>% select(Specimen, Species_2, Cranial_capacity, Age_in_MA, Sou
 cc_edited <- cc_edited %>% rename(Speices = Species_2)
 kable(cc_edited,'html') %>% 
   kable_styling(bootstrap_options = c("striped", "hover", "responsive")) %>% scroll_box(width = "700px", height = "300px")
+
+```
+
+
+
+Here is the mean cranial capacity by species for the above data:
+
+
+```{r}
+cc_summary <- cc %>% group_by(Species_2) %>% summarise(mean(Cranial_capacity))
+kable(cc_summary, 'html') %>% kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
 
 ```
 
