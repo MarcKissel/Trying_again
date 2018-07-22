@@ -103,6 +103,12 @@ kable(cc_edited,'html') %>%
 ```
 
 
+##details
+
+
+Part of this project was to learn how to better use the [Tidyverse](https://www.tidyverse.org/) to help teach students about hominin fossils.
+This was made using R with the Tidyverse, ggridges, kableExtra, and blogdown packages. 
+For the R code (which I'm sure is not as straightforward as it could be....) [click here](https://github.com/MarcKissel/Trying_again/blob/master/content/post/2018-07-20-human-evolution.Rmd)
 
 
 
