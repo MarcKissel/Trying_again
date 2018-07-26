@@ -104,17 +104,6 @@ kable(cc_edited,'html') %>%
 ```
 
 
-
-Here is the mean cranial capacity by species for the above data:
-
-
-```{r, message=FALSE, error=FALSE, warning=FALSE, echo=FALSE}
-cc_summary <- cc %>% group_by(Species_2) %>% summarise(mean(Cranial_capacity))
-kable(cc_summary, 'html') %>% kable_styling(bootstrap_options = c("striped", "hover", "responsive"))
-
-```
-
-
 ##details
 
 
