@@ -27,7 +27,7 @@ library(plotly)
 
 #Exploring hominin data
 
-This is a temp version of data for my Human Evolution course next Fall. Wanted to spend the first day showing some data and talking about how we can visualize hominin evolution.
+This is a  version of data for my Human Evolution course next Fall. Wanted to spend the first day showing some data and talking about how we can visualize hominin evolution.
 
 
 ##interactive plot
