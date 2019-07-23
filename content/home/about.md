@@ -32,4 +32,6 @@ I received my PhD in anthropology at the University of Wisconsin-Madison in 2014
 
 [view my CV](https://drive.google.com/file/d/1H6-SRexn-CjX8Hr3JShZ61to-eYqqZtS/view?usp=sharing)
 
+[and here](https://drive.google.com/file/d/1bQkdouZzLIC41_ZyR4iYv45sD0yW1rxc/view?usp=sharing)
+
 Many of my papers can be found on my [Academia.edu page](https://nd.academia.edu/MarcKissel) or just email me if you want a copy.
