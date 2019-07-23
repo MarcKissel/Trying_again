@@ -30,67 +30,65 @@ options(htmltools.dir.version = FALSE)
 
 
 
-**This is a work-in-progress as I think more on how to become a better teacher.** I'm sharing this (a earlier version of which I wrote for a colleauge) mostly cause I like the idea of workshoping teaching ideas and at least this keeps me honest about what I am doing in the classroom
+**This is a work-in-progress as I think more on how to become a better teacher.** I'm sharing this (a earlier version of which I wrote for a colleauge) mostly cause I like the idea of workshoping teaching ideas and at least this keeps me honest about what I am doing in the classroom:
 
 
-When I was a college student (which was somewhat back in the Early Holocene...) I read the *New York Times* almost every day. I loved buying the paper at the newsstand & reading it before class. Then I took a class sophomore year where the prof made us read the paper & gave us a quiz on it. I can’t remember much about the class but I do know it met Tues/Thurs morning, because those became the days that I dreaded reading the paper. The intrinsic motivation I had to read the news was removed and in its place there was the extrinsic motivation of getting the good grade. 
+WHEN I WAS a college student (which was somewhat back in the Early Holocene...) I read the *New York Times* almost every day. I loved buying the paper at the newsstand & reading it before class. Then I took a class sophomore year where the prof made us read the paper & gave us a quiz on it. I can’t remember much about the class but I do know it met Tues/Thurs morning, because those became the days that I dreaded reading the paper. The intrinsic motivation I had to read the news was removed and in its place there was the extrinsic motivation of getting the good grade. 
 
 But as Calvin knew early on, learning about something because you wanted to learn about it makes it much more enjoyable:
 
 
-![calvin and hobbes comic where he comments he doesn't like school cause they don't read about dinosaurs](/img/calvin.jpg)
-
+![alt text: calvin and hobbes comic where he comments he doesn't like school cause they don't read about dinosaurs](/img/calvin.jpg)
 
 I thought about this recently as I was reading about the move towards gradeless classrooms (some examples from [Jesse Stommel](https://www.jessestommel.com/how-to-ungrade/), [Susan Blum](https://www.insidehighered.com/advice/2017/11/14/significant-learning-benefits-getting-rid-grades-essay), [Maha Bali](https://www.chronicle.com/blogs/profhacker/ungrading-my-class-reflections-on-a-second-iteration/65235), and [Laura Gibbs](https://blogs.edweek.org/teachers/work_in_progress/2016/03/ungrading_it_can_be_done_in_co.html)). I always hated grading students at the end of term. I’d feel pains of heartache when a student’s grade wasn’t as good as they would like, would fear the multiple  emails from students asking me to raise their grade, and in all just wanted it to end. 
 
-Awhile back I read Alfie Kohn’s *Punished by Rewards*. I can’t remember where I saw it mentioned or what brought me to it. But reading it changed my life. If I could give every new prof a book it would be that one. For a sample check [this essay](https://www.alfiekohn.org/article/degrading-de-grading/) or [this one](https://www.alfiekohn.org/article/trouble-rubrics/). To quote Kohn 
+Awhile back I read Alfie Kohn’s [*Punished by Rewards*](https://www.alfiekohn.org/punished-rewards/). I can’t remember where I saw it mentioned or what brought me to it. But reading it changed my life. If I could give every new prof a book it would be that one. For a sample check [this essay](https://www.alfiekohn.org/article/degrading-de-grading/). As he write [here](https://www.alfiekohn.org/article/trouble-rubrics/) 
 
->"research shows three reliable effects when students are graded:  They tend to think less deeply, avoid taking risks, and lose interest in the learning itself"
->
-`r tufte::quote_footer('--- Alfie Kohn')`
+>"...I’d been looking for an alternative to grades because research shows three reliable effects when students are graded:  They tend to think less deeply, avoid taking risks, and lose interest in the learning itself"
+>`r tufte::quote_footer('--- Alfie Kohn')`
 
 
 
 Grades reduce the complex process of learning to a single symbol. What we remember years (or even days) later is not the material but the grade. There is a lot of research on how grades hinder, rather than motivate, learning. Even spending 30 mins reading on the [history of grading](https://www.tandfonline.com/doi/full/10.1080/00220272.2013.790480) is enlightening. We spend so much time grading essays, exams, labs and thinking about *how* we grade but we rarely ask *why* we grade.
 
-They also tend to decentralize learning. A good example of this is to think back to when you were on school holiday. For me, at least, the question I got  most was "what grades did you get this semester?"  rather than "what did you learn?"
+They also tend to decentralize learning. A good example of this is to think back to when you were on school holiday. For me, at least, the question I got most was "what grades did you get this semester?" rather than "what did you learn?"
 
 
-I decided was the time to do it for my **Gender, Race, and Class** summer course. It is smaller than my normal class & a bit more relaxed. On the first day I told the students I was going to run a gradeless class. The students said that they never really questioned why they were given grades but when we talked about it it became clear that they found them problematic. One student, who I knew to be  wonderfully smart, said that she felt she couldn’t really explore class topics any further than the level of the readings since she needed to make sure she was ready for the test. Admitting to them that grades don’t always reflect learning is a shock to their system, especially the “A students” who define themselves as such.
+I decided it was the time to try a gradeless class for my **Gender, Race, and Class** summer course. It is smaller than my normal class & a bit more relaxed. On the first day I told the students I was going to run a gradeless class. The students said that they never really questioned why they were given grades but when we talked about it it became clear that they found them problematic. One student, who I knew to be  wonderfully smart, said that she felt she couldn’t really explore class topics any further than the level of the readings since she needed to make sure she was ready for the test. Admitting to them that grades don’t always reflect learning is a shock to their system, especially the “A students” who define themselves as such.
 
 **Here is what I did:** 
 
-No grades on any assignments, no rubrics to follow.  Students gave weekly comments and I wrote detailed feedback (As soon as you put a grade on a paper students focus on that rather than the comments). They also completed [UnEssays](https://marckissel.netlify.com/post/on-the-unessay/) (something I have done for the last few years and have enjoyed a lot). 
+NO GRADES ON any assignments, no rubrics to follow.  Students gave weekly comments and I wrote detailed feedback (As soon as you put a grade on a paper students focus on that rather than the comments). They also completed [UnEssays](https://marckissel.netlify.com/post/on-the-unessay/) (something I have done for the last few years and have enjoyed a lot). 
 
-The first week i had students think about what grade they wanted and write down a plan. If someone decided  that they wanted a C they could aim for that.
+The first week I had students think about what grade they wanted and write down a plan. If someone decided  that they wanted a C they could aim for that.
 
-Grades are decided with students, not for them, in a meeting at the end of the term (see Starr Sackstein’s *Hacking Assessment: 10 Ways to Go Gradeless in a Traditional Grades School* for info on this). In retrospect I could have done better with the feedback and am reading more on this. Giving feedback that fosters learning and encourages growth is hard and, I think, requires the same amount of effort as grading an exam (in other words, it isn’t a cop out to go gradeless).
+Grades are decided with students, not for them, in a meeting at the end of the term (see Starr Sackstein’s [*Hacking Assessment: 10 Ways to Go Gradeless in a Traditional Grades School*](http://hacklearning.org/hacking-assessment-10-ways-to-go-gradeless-in-a-traditional-grades-world/) for info on this). In retrospect I could have done better with the feedback and am reading more on this. Giving feedback that fosters learning and encourages growth is hard and, I think, requires the same amount of effort as grading an exam (in other words, it isn’t a cop out to go gradeless).
 
 
-For the most part they seemed to like it. A few commented that it was the first time they felt like they were learning rather than memorizing. It was difficult for them to get used to the idea that they were in control of their own learning, but in the end most enjoyed it. 
-
-As Jesse Stommel [argues](https://www.jessestommel.com/why-i-dont-grade/), "education should be about encouraging and rewarding not knowing more than knowing."
+For the most part they seemed to like it. A few commented that it was the first time they felt like they were learning rather than memorizing. It was at first difficult for some of them to get used to the idea that they were in control of their own learning and that they were not getting a grade on everything they handed in. But as Jesse Stommel [argues](https://www.jessestommel.com/why-i-dont-grade/), "education should be about encouraging and rewarding *not knowing* more than *knowing*."
 
 Students were able to explore topics in innovative ways and not worry what I thought of their writing style etc. Some disagreed with me on topics (not surprising, giving the class themes on gender, race and socioeconomic class) but I got the feeling they were more open than normal since they felt I wasn’t going to deduct points for not liking their ideas. I also got to know them better as individuals. In their weekly reflections I saw them for they were, not for who they thought I wanted them to be. 
 
-When you allow yourself to remove the idea of grades you can set yourself free. And you set your students free.
+When you allow yourself to remove the idea of grades you can set yourself free. And you set your students free to explore and be creative.
 
 ## Yeah, but what about the *real world*...
  
-When I first said I was going to do this a friend remarked that he thought it was kind of like a *‘do what you want’* mode of teaching. Well, to some extent, yes. As a student I strived for As. But not everyone does that. And that is ok. Some of my favorite students were ‘C’ students. These are people who have the power to go out and change the world. But the school system is not set for them since they aren’t the ones becoming professors. It took me awhile (longer than I would like) to grasp this simple issue. They weren’t average. It was simply the system that made them seem average. They excelled in so many things. If a student thinks a C is good for them (and their goal of graduating) than why not accept that rather than berate their not doing the work. (when i met with students to discuss their grade, I told them I reserve the right to not assign them the grade they choose. I only changed one person's grade, since I thought he deserved better than he had assigned himself).
+WHEN I FIRST said I was going to do this a friend remarked that he thought it was kind of like a *‘do what you feel’* mode of teaching.^[glib response: [yes, yes it is](https://giphy.com/gifs/yes-599XNNWGtWigo)] As a student I strived for As. But not everyone does that. And that is ok. Some of my favorite students were ‘C’ students. These are people who have the power to go out and change the world. But the school system is not set for them since they aren’t the ones becoming professors. It took me awhile (longer than I would like) to grasp this simple issue. They weren’t average. It was simply the system that made them seem average. They excelled in so many things. If a student thinks a C is good for them (and their goal of graduating) than why not accept that rather than berate their not doing the work. (when i met with students to discuss their grade, I told them I reserve the right to not assign them the grade they choose. I only changed one person's grade, since I thought he deserved better than he had assigned himself).
 
-Another comment I got was a version of something many of us have heard a lot over the years: ***“that won’t prepare them for the real world.”*** While I get where they are coming from, I also find this a bit insulting. Our students *are* in the real world.  Students, like everyone, have hardshipa they face, financial problems to deal with, relationship problems, physical & mental health issues, and the need to find some happiness. Like so many of my colleagues I have had students share stories with me that break my heart. To say they don’t live in the real world seems disingenuous.  ^[As i was editing this NPR wrote on how students in Oregon are going to be allowed  to take [Mental Health Days](https://www.npr.org/2019/07/22/744074390/feeling-blue-oregon-students-allowed-to-take-mental-health-days). What a wonderful idea & shows the power of student activists]
+Another comment I got was a version of something many of us have heard a lot over the years: ***“that won’t prepare them for the real world.”*** While I get where this is coming from, I also find this a bit insulting. Our students *are* in the real world.  Students, like everyone, have hardships they face, financial problems to deal with, relationship problems, physical & mental health issues, and the need to find some happiness. Like so many of my colleagues I have had students share stories with me that break my heart. To say they don’t live in the real world seems disingenuous.  ^[As i was editing this NPR wrote on how students in Oregon are going to be allowed  to take [Mental Health Days](https://www.npr.org/2019/07/22/744074390/feeling-blue-oregon-students-allowed-to-take-mental-health-days). What a wonderful idea & shows the power of student activists]
 
-Moreover, we all get do-overs. Many college profs are overdue on peer-reviews, late on manuscripts, behind on emails, miss deadlines, and forget to hand in our self-evaluations to the dept chair. In these cases we often rely on our colleagues to understand that life happens. Yes, sometimes they cost us, but many time we are given the benefit of the doubt. Why not extend students the same courtesy? 
+Moreover, we do get do-overs. Many [college profs](https://giphy.com/gifs/reaction-breaking-bad-the-colbert-report-KQm5O05y9rzQA) are overdue on peer-reviews, late on manuscripts, behind on emails, miss deadlines, and forget to hand in our self-evaluations to the dept chair. In these cases we often rely on our colleagues to understand that life happens. Yes, sometimes they cost us, but many time we are given the benefit of the doubt. Why not extend students the same courtesy? 
 
  
 
-### Some questions
+### Going Forward
 
 Bias: I am concerned about gender issues. Do women grade/assess themselves more harshly than men? I don’t know. My only time doing this so far didn’t show any trend, but it is something to think about.
 
 Time: My summer class was only ~25 students. Next semester I am lucky to have a course reduction and only am teaching 2 classes, but *Gender, Race, and Class* has 76 students in it. I’m thinking now on how to involve more student-led feedback and group responses. And maybe a version of the [Choices and Points](http://blogs.edweek.org/teachers/work_in_progress/2016/03/ungrading_it_can_be_done_in_co.html) system that Laura Gibbs uses. It will be hard, and involve rethinking the class, but I think in the end it will make the whole course more meaningful. 
 
+
+If anyone reads this I would love to know what you think...
 
 
 (I wrote this in response to a colleagues question. I wasn’t going to share it especially after seeing this amazing piece in the [Chronicle by Beckie Supiano](https://www.chronicle.com/interactives/20190719_ungrading) which goes over all this and more. But I like the idea of sharing teaching ideas and at least this keeps me honest about what I am doing in the classroom)
