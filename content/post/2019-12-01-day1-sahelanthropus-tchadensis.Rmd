@@ -36,11 +36,14 @@ map_sahel
 ```
 
 
-The fossil was [first published in 2002](https://scholar.harvard.edu/files/dlieberman/files/2005a.pdf), with subsequent material published [in 2005](https://scholar.harvard.edu/files/dlieberman/files/2005a.pdf).  Scientists argued that it was bipedal based mostly on the placement of the *foramen magnum*, the large hole at the base of the skull through which the spinal column attaches to the skull. Its placement tells us something about how the neck  is held.^[fun fact: there is a  [bit of debate]( https://www.ncbi.nlm.nih.gov/pubmed/27178457) about how much info the placement of the foramen magnum can tell us about locomotion patterns.] Hominins tend to have this hole placed more towards the front of their skull to support upright posture. Debate exists, though, about how forwardly placed this hole is. 
+The fossil was [first published in 2002](https://scholar.harvard.edu/files/dlieberman/files/2005a.pdf), with subsequent material published [in 2005](https://scholar.harvard.edu/files/dlieberman/files/2005a.pdf).  Scientists argued that it was bipedal based mostly on the placement of the *foramen magnum*, the large hole at the base of the skull through which the spinal column attaches to the skull. Its placement tells us something about how the neck is held, with hominins tending to have this hole placed more towards the front of their skull to support their upright posture. Debate exists, though, about how forwardly placed this hole is.^[fun fact: there is a  [bit of debate]( https://www.ncbi.nlm.nih.gov/pubmed/27178457) about how much info the placement of the foramen magnum can tell us about locomotion patterns.]
 
-The size and shape of its canine has also been examined for clues to its affiliation with our lineage. The manner in which the canine is worn suggests it lacked a honing complex, a trait seen in many apes in which the back edge of the upper canine is sharpened against the front part of the lower premolar. 
 
-[Debate exists](http://www.paleoanthro.org/static/journal/content/PA20060036.pdf), though, about how forwardly placed the foramen magnum really is and if the canine's morphology proves it is a hominin. Moreover, recent debate has focused attention on a femur that was [found near the skull](https://www.nature.com/magazine-assets/d41586-018-00972-z/d41586-018-00972-z.pdf). 
+The size and shape of its canine has also been examined for clues to its affiliation with our lineage. The manner in which the canine is worn suggests it lacked a [honing complex](https://cpb-us-e1.wpmucdn.com/wordpressua.uark.edu/dist/e/97/files/2015/09/Delezene-2015.pdf), a trait seen in many apes in which the back edge of the upper canine is sharpened against the front part of the lower premolar. 
+
+However, whether or not these fossils are part of the hominin clade is still unclear. [Debate exists](http://www.paleoanthro.org/static/journal/content/PA20060036.pdf), though, about how forwardly placed the foramen magnum really is and if the canine's morphology proves it is a hominin. 
+
+Moreover, recent debate has focused attention on a femur that was [found near the skull](https://www.nature.com/magazine-assets/d41586-018-00972-z/d41586-018-00972-z.pdf). I don't know the current status of this femur or the study, but I imagine we will hear about it sometime soon! 
 
 
 I imagine if you polled three paleoanthropologists, you'd get at least five different takes on the current status of *Sahelanthropus tchadensis*. I'm honestly not sure what to think about these fossils, but they do show how interesting the study of human evolution can be!
@@ -51,6 +54,9 @@ I imagine if you polled three paleoanthropologists, you'd get at least five diff
 ### Further readings
 
 [Morphological affinities of the Sahelanthropus tchadensis (Late Miocene hominid from Chad) cranium by Guy et al. (2005) ](https://www.pnas.org/content/102/52/18836)
+
+
+[An Ape or the Ape: Is the Toumaï Cranium TM 266 a Hominid? by Wolpoff et al (2006)](http://www.paleoanthro.org/static/journal/content/PA20060036.pdf)
 
 
 [Sahelanthropus tchadensis: Ten Years After the Discovery by Erin Wayman (2012) ](https://www.smithsonianmag.com/science-nature/sahelanthropus-tchadensis-ten-years-after-the-disocvery-2449553/)
