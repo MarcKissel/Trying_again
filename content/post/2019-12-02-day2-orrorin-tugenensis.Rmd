@@ -1,0 +1,70 @@
+---
+title: Advent of Hominins. Day Two-Orrorin tugenensis
+author: Marc Kissel
+date: '2019-12-02'
+slug: day2-orrorin-tugenensis
+categories:
+  - Advent_of_hominins
+  - hominin
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r needed libraries, include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+
+
+![Orrorin tugenensis sample  from Senut et al 2001](/img/orrorin.PNG)
+
+These set of fossils (collected by Evalyne Kiptalam, Kiptalam Cheboi, Martin Pickford, Brigitte Senut, Dominique Gommery, Samuel Chetalam, & Joseph Chebet) date to ~ 6 million years ago. While no cranium has been published so far, we do have parts of the upper & lower dentition (including a fragment of the lower left mandible), two left femora (BAR 1002'00 and BAR 1003'00), part of the humerus, & a proximal finger bone. 
+
+
+```{r  echo=FALSE}
+
+map_Orrorin <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=35.8749, lat=0.7529, popup="aprox location of Orrorin tugenensis") %>% setView(lng = 35.8749, lat = 0.7529, zoom = 2)
+
+map_Orrorin
+```
+
+
+The generic name means 'origin man'
+and the species name comes from the Tugen Hills in Kenya. The name points to its importance as a contender as the earliest known hominin.
+
+As with *Sahelanthropus tchadensis*, the debate about these fossils centers on if they should be classified as hominins or not. Much of this discussion centers on the thickness of the cortical bone at the neck of the femur.^[Asymmetric cortical bone distribution has been used to  demonstrate bipedality.] Some [have argued](http://users.clas.ufl.edu/krigbaum/proseminar/ororrorin.pdf) that the distribution of cortical thickness suggests the species was bipedal, while others are more skeptical. The debate stems from the issue that the femur was found in multiple pieces and then glued together. There have been calls to [unglue and X-ray the femur](https://science.sciencemag.org/content/sci/307/5711/845.2.full.pdf?casa_token=9jv4wUfprRAAAAAA:UMgifoMqOc3Fhl5Svx1Xxee1ZgX2uuPcIhqTV9RaCMTAPko04wE4fUGtnf0oKXJUBzwc0JOUzbcN0cs) but as far as I know this issue is still not resolved. 
+
+The femur *seems* to indicate a type of bipedal gait, but how they moved on the ground is far from certain. The finger bone, on the other hand, suggests the species retained a grasping behavior probably related to climbing trees. This is not surprising since many later hominins also show evidence of retention of arboreal characters.
+
+
+
+The relationship between these fossils and later hominins is also up to debate. [Some researchers](https://www.sciencedirect.com/science/article/abs/pii/S1631068302000283) argue that that features of the femora suggest a closer link to *Homo* than to Australopithecines , which may suggest that Australopiths are a side branch that didn't give rise to the genus *Homo*. The figure below, from Senut et al. 2001, depicts their hypothesis:
+
+![](/img/Senut_et_al_2001_Fig2.PNG)
+
+
+
+
+Lets just say this is [very controversial](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwibzMa1yZfmAhURh-AKHfRnD9UQjhx6BAgBEAI&url=https%3A%2F%2Fgiphy.com%2Fgifs%2Fseason-6-the-simpsons-6x5-xT5LMxQLCYxGdiWfkY&psig=AOvVaw3zb_0346aA_pfIutUNKkwC&ust=1575397029630610). It is sadly behind a paywall, but a pretty interesting paper by Tim White titled [Early hominid femora: The inside story](https://www.sciencedirect.com/science/article/abs/pii/S1631068305001041) goes into an amazing amount of detail about the femur and the intellectual history of the Orrorin femora.
+
+![Image of Orrorin femur from https://news.stonybrook.edu/newsroom/press-release/general/131204earlytreedwelling/](/img/Orrorin-femur.jpg)
+
+
+One of the large questions that these Miocene fossils point to is what it really means to be a biped, how many times bipedalism evolved in hominoids, and *why* bipedalism evolved in hominins.  My guess is that in the next few years we will find more data suggesting that bipedalism's origin was much more complex than orginally thought.
+
+
+### Further reading:
+
+
+[Bipedal‘millenium man’ hung out in trees by  Jacob Levich (2013)](https://www.futurity.org/femur-puts-bipedal-millenium-man-trees/)
+
+[The Earliest Hominins: Sahelanthropus, Orrorin, and Ardipithecus by Denise Su (2013)](https://www.nature.com/scitable/knowledge/library/the-earliest-hominins-sahelanthropus-orrorin-and-ardipithecus-67648286/)
+
+
+
