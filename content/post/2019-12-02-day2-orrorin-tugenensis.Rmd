@@ -22,7 +22,7 @@ library(leaflet)
 
 ![Orrorin tugenensis sample  from Senut et al 2001](/img/orrorin.PNG)
 
-These set of fossils (collected by Evalyne Kiptalam, Kiptalam Cheboi, Martin Pickford, Brigitte Senut, Dominique Gommery, Samuel Chetalam, & Joseph Chebet) date to ~ 6 million years ago. While no cranium has been published so far, we do have parts of the upper & lower dentition (including a fragment of the lower left mandible), two left femora (BAR 1002'00 and BAR 1003'00), part of the humerus, & a proximal finger bone. 
+These set of fossils (collected by Evalyne Kiptalam, Kiptalam Cheboi, Martin Pickford, Brigitte Senut, Dominique Gommery, Samuel Chetalam, & Joseph Chebet) date to ~ 6 million years ago. While no cranium has been published so far, we do have parts of the upper & lower dentition (including a fragment of the lower left mandible), femora, part of the humerus, & a proximal finger bone. 
 
 
 ```{r  echo=FALSE}
@@ -37,6 +37,8 @@ map_Orrorin
 
 The generic name means 'origin man'
 and the species name comes from the Tugen Hills in Kenya. The name points to its importance as a contender as the earliest known hominin.
+
+Interestingly, one of the proximal left femora (BAR 1003'00) shows puncture marks probably made by a carnivore. 
 
 As with *Sahelanthropus tchadensis*, the debate about these fossils centers on if they should be classified as hominins or not. Much of this discussion centers on the thickness of the cortical bone at the neck of the femur.^[Asymmetric cortical bone distribution has been used to  demonstrate bipedality.] Some [have argued](http://users.clas.ufl.edu/krigbaum/proseminar/ororrorin.pdf) that the distribution of cortical thickness suggests the species was bipedal, while others are more skeptical. The debate stems from the issue that the femur was found in multiple pieces and then glued together. There have been calls to [unglue and X-ray the femur](https://science.sciencemag.org/content/sci/307/5711/845.2.full.pdf?casa_token=9jv4wUfprRAAAAAA:UMgifoMqOc3Fhl5Svx1Xxee1ZgX2uuPcIhqTV9RaCMTAPko04wE4fUGtnf0oKXJUBzwc0JOUzbcN0cs) but as far as I know this issue is still not resolved. 
 
