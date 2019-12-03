@@ -1,0 +1,59 @@
+---
+title: Advent of Hominins. Day Three-Lothagam
+author: Marc Kissel
+date: '2019-12-03'
+slug: advent-of-hominins-day-three-lothagam
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+```{r needed libraries, include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+
+![Lothagam mandible from Kissel and Hawks 2015](/img/lothagam.PNG)
+
+
+
+While this fragmentary (and often over-looked) fossil may pale in comparison to other recent finds in terms of its preservation and allure, at one point it was one of the oldest examples we had of hominin evolution!
+
+
+
+```{r  echo=FALSE}
+
+map_lothagam <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=35.8, lat=3.42, popup="aprox location of KNM-LT 329 ") %>% setView(lng = 35.8749, lat = 0.7529, zoom = 2)
+
+map_lothagam
+```
+
+
+The date of this fossil, known to its close friends as KNM-LT 329, is uncertain. This is because the geology and stratigraphy of the geologic Member it was found in is complex. The fossil seems to be  no younger than 4.2 mya and no older than 5.2 mya (though some research suggests the older date may be too old). A date older than 4.4 million years ago would place the specimen outside of the time range of the earliest species of *Australopithecus*  
+
+
+The body of the mandible extends from a section anterior to the mental foramen^[There has been a lot of research into the placement of the MF in modern humans, mostly because of its importance for locating it for dental procedures. From what I gather there is a lot of variation in its placement, shape, and orientation.]  and is broken off at the ramus. The roots of M2 and part of the M3 roots have been preserved, along with much of the body below the molars. 
+
+
+Due to its age and fragmentary nature, its phylogenetic status seems unclear. The first molar of KNM-LT 329 is relatively large, falling outside the metrics for *Ardipithecus*. In the first paper [I ever published](http://www.paleoanthro.org/media/journal/content/PA20150037.pdf), John Hawks & I examined the metric and non-metric data and suggested that Lothagam didn't fit into the known variation seen in  Ardipithecus. We suggested that the attribution of the mandible to Australopithecus was more supported. Interestingly, if it really is as old as 5 mya that would extend the geologic age of  australopiths. This paper  totally revolutionized the field :)
+
+
+the image below is from our paper. It really should be updated with the new data to see how our increased knowledge has changed what we know about variation in hominin molar size (something my students may do next semester)
+
+![](/img/Fig1_loth.jpg)
+
+
+Complete fossils like Ardi, Lucy, Turkana Boy, etc. are obviously important. But sometimes it is interesting to think about how much we can glean from a single fossil. And for what it is worth, KNM-LT 329 is one of my favorite fossils!
+
+### further reading
+
+[The grandeur of Lothagam by Deming Yang (2017). Mostly about the Holocene sites which are super interesting as well and some great pics of the geology](https://www.turkanabasin.org/2017/04/the-grandeur-of-lothagam/)
