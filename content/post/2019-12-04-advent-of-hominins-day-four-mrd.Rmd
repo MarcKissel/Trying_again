@@ -1,0 +1,71 @@
+---
+title: Advent of Hominins. Day Four-MRD
+author: Marc Kissel
+date: '2019-12-04'
+slug: advent-of-hominins-day-four-mrd
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r needed libraries, include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+
+![](/img/MRD-Halie-Selassie_2019.PNG)
+
+MRD-VP-1/1 was announced only a few months ago (fun fact: you can tell when there is going to be a new fossil find by just asking me when I am planning to print my course syllabus and then banking on the fossil being published 24 hrs later…). Its importance is hard to overstate, as up till now we didn’t know much about the facial architecture of early members of the Australopith genus, with the expectation of the [Little Foot fossil from Sterkfontein in South Africa](https://www.nature.com/articles/d41586-018-07651-z) that *may* date to ~3.67 mya   
+
+
+
+
+```{r  echo=FALSE}
+
+map_MRD <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=40.58, lat=11.12, popup="aprox location of MRD") %>% setView(lng = 40.58, lat = 11.12, zoom = 2)
+
+map_MRD
+```
+
+
+The fossils were first discovered by Ali Bereino  on February 10, 2016. [As reported by Michael Price](https://www.sciencemag.org/news/2019/08/stunning-ancient-skull-shakes-human-family-tree): "Shoveling aside nearly half a meter of old goat droppings and sieving through sediment, the team unearthed the nearly complete skull of an enigmatic human ancestor, the oldest member of the genus that eventually led to our own." No one ever said that paleoanthropological field work was easy...
+
+Using multiple dating methods, the team have dated this fossil to 3.804 - 3.777 mya.
+
+
+There is a lot  of interest here. I mean, this
+cranium really is stunning. The cranial capacity is measured at 365–370 cc, which is smaller than the *Au. afarenis* (Lucy's species, which  deserves its own day. If anyone want to write that up please let me know...) but similar in size to  [Sahelanthropus](https://marckissel.netlify.com/post/day1-sahelanthropus-tchadensis/). It is fairly  prognathic face, which means that its jaw juts out more from the rest of the face. Over evolutionary time, our faces become more smooshed in^[to use a highly technical term….]. Its midface  region is broad but then gets narrow in the upper part of the face^[this is sometimes referred  to as a "hexagonal facial mask," which would be a great insult to use  on someone who had no idea of what you were talking about]. This, plus the presence of a sagittal crest and its relatively large canine suggest to the researchers that it is an adult male belonging to the species *Australopithecus anamensis*.
+
+
+
+
+One interesting note in the paper is this comment: "It also further confirms
+that the 3.9-Myr-old frontal fragment from the Middle Awash, Ethiopia (BEL-VP-1/1) is derived with regard to postorbital constriction and thus probably belongs to *A. afarensis*. Together, the secure dating of BEL-VP-1/1 and MRD indicate that *A. afarensis* and *A. anamensis* overlapped in the Afar Triangle for at least 100,000 years." Last time I looked, BEL-VP-1/1 (a frontal bone) was argued to belong to either Au. anamensis or afarensis¸ so if the researchers are correct the new data place this enigmatic frontal bone with Lucy’s species. 
+
+![BEL-VP-1 in Frontal view from Asfaw 1988](/img/BEL-VP-1.PNG)
+
+
+
+In other words, these data suggest that MRD lived alongside an different species, *A. afarensis*. Some of us thought that there was a transition from anamensis to afarensis (what we sometimes call a [chronospecies]( https://www.mun.ca/biology/scarr/Evolutionary_vs_Chronospecies.html)) but  these new fossils & dates suggest, though don't prove, that at least for a time they were coeval. This doesn't falsify the chronospecies hypothesis necessarily, but it is tantalizing. What the authors are suggesting, i think, is that one population of anamnesis split off and evolved into afarensis 
+
+The suggestion of two  species at this  time (and maybe more if you think *Australopithecus deyiremeda* is its own species..) indicates a level of species richness in the Pliocene that makes this time period really important for understanding the origins of the genus *Homo*.
+
+
+
+![Au. anamensis. Image credit: John Gurche / Susan & George Klein / Matt Crow / Cleveland Museum of Natural History](/img/image_7542_2-Australopithecus-anamensis.jpg)
+
+I think that this find will make its way to being one of the more famous skulls due to its  completeness and the amount of info here. In this vein, my daughters and I tried to make an "Australopithecus anamensipumpkin" for Halloween but it didn't come out very good. Maybe next year!
+
+
+
+### Further reading:
+
+[Stunning ancient skull shakes up human family tree By Michael Price 2019](https://www.sciencemag.org/news/2019/08/stunning-ancient-skull-shakes-human-family-tree)
