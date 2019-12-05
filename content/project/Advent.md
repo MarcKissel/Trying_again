@@ -13,7 +13,7 @@ summary = "A collection of info on hominin fossils in the style of an Advent cal
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["advent"]
+tags = ["Advent_of_hominins"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
