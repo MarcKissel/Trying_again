@@ -1,0 +1,67 @@
+---
+title: Advent of Hominins. Day Six-DIK-1-1f
+author: Marc Kissel
+date: '2019-12-06'
+slug: advent-of-hominins-day-six-dik-1-1f
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+```{r needed libraries, include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+
+
+![image from DeSilva et al. 2018](\img\Dikfoot.png)
+
+
+# Dikika Foot
+This fossil is part of the 3.3 mya skeleton of a *Australopithecus afarensis* child. If you don't know about this skeleton, named Selam, check out [Paige Madison's story](https://embryo.asu.edu/pages/discovery-dikika-baby-fossil-evidence-australopithecine-growth-and-development) that details this amazing fossil find.
+
+Feet are not well-known in the early human fossil record. This is a shame, since feet tell us a lot about how a species moved. An earlier example from Woranso-Mille the [Burtele Foot](https://www.nature.com/articles/nature10922), shows a 3.4 mya foot that retained an opposable big toe. This suggests to some that when *Au. afarensis* was around, there was another species similar in locomotion to Ardipithecus (which really needs its own day...). As far as I know there is no species designation for the Burtele foot, but it, like [MRD-VP-1/1](https://marckissel.netlify.com/post/advent-of-hominins-day-four-mrd/) suggests a great level of species richness.
+
+DIK-1-1f measures 55 mm from the calcaneus (heel bone) to the metatarsal ( about the height of a golf tee). Happily, all of the tarsal bones are present, so [scientists were able to reconstruct much of its locomotion](https://advances.sciencemag.org/content/4/7/eaar7723). While we know that *Au. afarensis* was a biped, there is plenty of evidence to suggest that it retained some arboreal traits (if you are 1.1 meter tall hominin, it might be useful to be able to climb a tree to be safe from predators). 
+
+
+The human calcaneus is able to withstand the impact during the  heel-strike (the back of the foot hits the ground first). To deal with the stress, humans (and adult afarensis) have large calcaneal tubers (the part closest to your heel) that help to dissipate the impact load. Selam, though, does not have the same tuber enlargement that is seen in young modern humans. This leads researches to suggest the species has an unusual trajectory of calcaneal growth.
+
+![image from DeSilva et al. 2018](/img/DeSilvaF2.jpg)
+
+
+Furthermore, while the big toe could not be abducted in the manner that Ardi and the Burtele Foot species could, juveniles did have a greater degree of mobility in their big toe than modern humans. Moreover, juvenile *A. afarensis* had more  abduction ability than adult *A. afarensis* did. 
+
+
+It looks like the data suggest that afarensis children were well adapted  to spending time in trees or clinging to an adult.
+
+I also made it a whole post without making a bad foot pun! Besides, i find most of those jokes way too pedestrian
+
+### Further reading
+
+[A nearly complete foot from Dikika, Ethiopia and its implications for the ontogeny and function of Australopithecus afarensis by DeSilva et al. 2018](https://advances.sciencemag.org/content/4/7/eaar7723)
+
+
+
+
+
+ 
+
+
+```{r  echo=FALSE}
+
+map_DIK_1_1f <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=40.5833, lat=11.0833, popup="aprox location of DIK-1-1f")  %>% 
+  
+  setView(lng = 40.5833, lat = 11.0833, zoom = 2)
+
+map_DIK_1_1f
+```
