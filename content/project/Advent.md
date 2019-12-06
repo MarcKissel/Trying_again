@@ -37,7 +37,7 @@ Below is a *semi*-interactive version of the calendar:
 
 
 
-#FINAL
+# Calendar of hominin fossils
 
 
 | Sunday                                                                                                                                                                             | Monday                                                                                                                       | Tuesday                                                                                                                                    | Wednesday                                                                                                                                            | Thursday                                                                                                                                        | Friday | Saturday |
