@@ -1,0 +1,88 @@
+---
+title: Advent of Hominins. Day eight-Taung_baby
+author: Marc Kissel
+date: '2019-12-08'
+slug: advent-of-hominins-day-eight-taung-child
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r needed libraries, include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+# Taung child!
+
+<img src="/img/Cast_of_taung_child.jpg" title="Cast of Taung. From wikipedia" width="200" height="200" />
+
+
+
+Like Lucy, Taung places a central role in the history of the study of human evolution. In the 1900s miners in South Africa would use explosives  to blow up areas of these mines. During this, they would sometimes come across fossils and save them.
+Luckily for students of human evolution, [Josephine Salmons](https://books.google.com/books?id=HftdjMNDvwIC&pg=PA276&lpg=PA276&dq=Josephine+Salmons&source=bl&ots=ch2xMhOXbT&sig=ACfU3U118FwKjC7tNQU7Lsb6GKpVu5pKyA&hl=en&sa=X&ved=2ahUKEwiErIS-56bmAhXSJt8KHc1kBxEQ6AEwFXoECAwQAQ#v=onepage&q=Josephine%20Salmons&f=false) was visiting a friend who happened to have one of the fossils in their house & she recognized it as a primate. She brought the skull to [Raymond Dart](https://www.britannica.com/biography/Raymond-A-Dart), an anatomist at the University of Witwatersrand. Dart, who had an interest in evoluution, then asked others to bring him fossils from Taung. Sadly, Salmons part in this story is [often-overlooked](https://books.google.com/books?id=6EIL3OR6Mr8C&pg=PA40&lpg=PA40&dq=Josephine+Salmons&source=bl&ots=xphjJnCz_J&sig=ACfU3U3jR8T9GuZxvopUIGm2eMqUBXiN3Q&hl=en&sa=X&ved=2ahUKEwiErIS-56bmAhXSJt8KHc1kBxEQ6AEwGHoECAoQAQ#v=onepage&q=Josephine%20Salmons&f=false). 
+
+As [described by Dart](https://www.press.uchicago.edu/Misc/Chicago/284158_brain.html), one day he was brought a box of fossils from Taung as he was getting ready for a wedding:
+
+>a thrill of excitement shot through me. On the very top of the rock heap was what was undoubtedly an endocranial cast or mold of the interior of the skull. Had it been only the fossilised brain cast of any species of ape it would have ranked as a great discovery, for such a thing had never before been reported. But I knew at a glance that what lay in my hands was no ordinary anthropoidal brain. Here in lime-consolidated sand was the replica of a brain three times as large as that of a baboon and considerably bigger than that of an adult chimpanzee. The startling image of the convolutions and furrows of the brain and the blood vessels of the skull were plainly visible.
+It was not big enough for primitive man, but even for an ape it was a big bulging brain and, most important, the forebrain was so big and had grown so far backward that it completely covered the hindbrain....
+These pleasant daydreams were interrupted by the bridegroom himself tugging at my sleeve. 'My God, Ray,' he said, striving to keep the nervous urgency out of his voice. 'You've got to finish dressing immediately—or I'll have to find another best man. The bridal car should be here any moment'.
+Reluctantly, I replaced the rocks in the boxes, but I carried the endocranial cast and the stone from which it had come along with me and locked them away in my wardrobe.
+
+I mean, if you are going to be late for a wedding I *guess* this is a good excuse...
+
+```{r  echo=FALSE}
+
+map_Taung <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=24.785556, lat=-27.533333, popup="aprox location of Taung") %>% setView(lng=24.785556, lat=-27.533333, zoom = 2)
+
+map_Taung
+```
+
+
+
+The age of the fossil is thought to be ~2.8 mya. Its skeletal age is unclear, though most put it around 3-years-old (It is difficult to know for sure, because the rate at which Taung developed is most likely different from modern humans). 
+
+Dart argued it was a hominin for a few reasons. Notably, he pointed out the foramen magnum was positioned towards the front of the skull (See [Sahelanthopus](https://marckissel.netlify.com/post/day1-sahelanthropus-tchadensis/) for more info on this ). It also had a bigger brain than an ape. Dart  named the species it represents *Australopithecus africanus*, a species now well-known in southern Africa.
+
+However, for various reasons  (including colonialist assumptions that Europe would be the place that humans first evolved) it was rejected as a hominin by the [leading experts of the day](https://www.press.uchicago.edu/Misc/Chicago/284158_brain.html). [Many](https://books.google.com/books?id=wbusvt8BYYIC&printsec=frontcover&source=gbs_vpt_buy#v=onepage&q&f=false) [books](https://www.press.uchicago.edu/ucp/books/book/chicago/B/bo3642219.html) [detail](https://www.jacana.co.za/book-categories/natural-history-a-travel/darwins-hunch-detail) this story well.
+
+
+There is a lot that we could think about in terms of Taung and its relevance to the study of human evolution. 
+
+Perhaps the greatest source of current controversy about this fossil has to do with the endocast, which shows the impression of the brain. In recent years Dean Falk and Ralph Holloway have debated about the location of the [lunate sculcus](https://en.wikipedia.org/wiki/Lunate_sulcus) (a fissue located in the brain that separates parts of the visual cortex) and other aspects of its neuroanatomy. 
+
+The placement of this sulcus differs in apes and in humans (when present in humans it is placed more towards to the back of the brain). According to [some researchers](https://www-sciencedirect-com.proxy006.nclive.org/science/article/pii/S1631068303001593?via%3Dihub)), another *A. africanus*, Stw 505, seems to show a lunate sculus in "in a posterior, non-Pan position, indicating that at least one member of the species had undergone some cortical reorganization toward a more human-like condition." ). The series of papers, books, and presentations on the neuroanatomy of Taung get into the weeds, and honestly after rereading a lot of them i'm still not sure what the story here is, but it gives an amazing insight into how science works. For a semi-recent take see the work by [Kristian Carlson and collegues](https://www.pnas.org/content/111/36/13022) who question how similar Taung's brain really was to modern humans.
+
+
+Another interesting aspect of the recent research on Taung is how the child died. Lee Berger & colleagues have argued that the child was killed by an eagle. They base this on marks left on the bone (see image below), the size of the animals in the assemblage from Taung,  the lack of evidence that the bones were chewed, and other factors that suggest a bird of prey accumulating the bones that have been collected at the Taung site. 
+
+<img src="/img/Taung_eagle.PNG" title="Gouges and punctures in the orbits of Taung. Image from Berger & McGrew 2007"/>
+
+This is supported not only by the marks on the bones, but by the taphonomy of the site. Taphonomy is the study of everything that happens to a bone from when the animal dies to when it is studied by a researcher. In this case, [Chistopher Gilbert and colleagues](http://pages.nycep.org/ed/download/pdf/2009c%20Exploration%20of%20Shape%20Variation%20Using%20LoCA.pdf) studied  bones from modern raptor nests. They argued that the taphonomic signatures from these nests are similar to that seen at Taung. 
+
+
+This is important since it might indicate that large birds of prey were a significant predator for early hominins and thus might have been a strong selective force acting on our ancestors. Perhaps australopiths and later hominins found ways to either adapt or acculturate to these predators.^[For more on this see ["Man the Hunted: Primates, Predators, and Human Evolution" by Hart and Sussman](https://www.goodreads.com/book/show/2835017-man-the-hunted)].
+
+Dart's later work focused on the behavior of australopiths, and he famously argued that they were killer apes, leaving us evidence in these caves of "The blood-bespattered, slaughter-gutted archives of human history." C.K. Brain later showed that they were most likely the [hunters, not the hunted](https://www.press.uchicago.edu/ucp/books/book/chicago/H/bo5962308.html), but the image of violence driving much of human evolution is still with us.^[to be fair, I have written a bit about this question and am biased in favor of thinking that we may have overstated the role of violence. It is an open question and full of controversy and debate].
+
+
+
+
+
+### Further reading
+
+[Further evidence for eagle predation of, and feeding damage on, the Taung child by L.R. Berger & W.S. McGraw, 2007](http://www.scielo.org.za/pdf/sajs/v103n11-12/a1310312.pdf)
+ 
+[Raymond Dart and our African origins by C. K. Brain 2003](https://www.press.uchicago.edu/Misc/Chicago/284158_brain.html)
+
+['The Skull', radiolab podcast (2014)](https://www.wnycstudios.org/podcasts/radiolab/articles/taung-child)
+
+
+[Darwin’s Hunch: Science, Race, and the Search for Human Origins by Christa Kuljian (2016) ](https://www.jacana.co.za/book-categories/natural-history-a-travel/darwins-hunch-detail). Honestly, this is one of the best books I have read about human origins and I think everyone should read it (so much so that i have bought & then given away 2 copies...) 
