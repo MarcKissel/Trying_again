@@ -1,0 +1,58 @@
+---
+title: advent-of-hominins-day-ten-ARA-VP-12/130
+author: Marc Kissel
+date: '2019-12-10'
+slug: advent-of-hominins-day-ten-ara-vp-12-130
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r needed libraries, include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+# ARA-VP-12/130
+
+This specimen, Found  by Haile-Selassie in 1997 in Afar depression, Ethiopia , is described in a paper by [Berhane Asfaw and colleagues in 1999](https://science.sciencemag.org/content/284/5414/629). It consists of cranial fragments from the frontal, parietals, and the maxilla with much of the dentition. 
+```{r  echo=FALSE}
+
+map_gahri <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=42.89861, lat=11.97194, popup="aprox location of Gahri") %>% setView(lng=42.89861, lat=11.97194, zoom = 2)
+
+map_gahri
+```
+<img src="/img/Asfaw_et_al.jpg" title="skull of Australopithecus garhi. From Asfaw et al 1999." width="400" height="400" />
+
+As you can see, the lower part of the face is fairly prognathic. The cranial capacity is ~450 cm^3^ and the cranium has marked post-orbital constriction, in which the part of the skull behind the eyes is narrowed. The dental arcade is U-shaped, rather than the more parabolic shape seen in modern humans. The image below (from Asfaw  et al 1999) compares an  (a) *A. afarensis* and (b) *A. boisei* palate to that of *A. garhi*. Note that for the photo of BOU-VP-12/130 they mirror-imaged on midline to compare  to the other fossils. 
+
+
+<img src="/img/Asfaw_et_al_2.jpg" title="The most complete palates of A. afarensis (A.L. 200-1a; canine reset) (A) and A. boisei
+(OH-5) (B) compared with that of A. garhi (C and D). The photograph (©David L. Brill 1999)
+was mirror-imaged on midline. Australopithecus garhi has relatively large canines like A. afarensis
+and absolutely large but morphologically nonrobust premolars and molars. Drawings ©L. Gudz.." width="400" height="400" />
+
+
+
+Based on its size, the cranium is assumed to be a male but this is hard to know for sure. 
+The skull & teeth differ from  *Autralopithecus* genera known from East Africa. For example, it has large molars (as big, or bigger, than seen in robust australopiths) and lacks the morphological suite known for the robust australopiths. For this reason, scientists set this fossil as the type specimen for *Australopithecus garhi*
+
+
+Other fossils found nearby, including cranial & limb fragments may also fit into this species. Interestingly, one femur (BOU-VP-12/1A-G) has cutmarks on it left by stone tools. However, it isn't clear if the postcranial bones can be attributed to *A. garhi*. That being said, the postcrania show  a humanlike humeral/femoral ratio, which may be the earliest known appearance of the relative femoral elongation that characterizes later hominins. It retains a bracial index that is indicative of an ape. This may suggest, contra other work, that hominin’s femora got longer *before* the forearm shortened. 
+
+
+At the time these fossils were announced the most shocking and surprising claim was that the fossils were found 'associated' with cutmarked faunal bones. During surface collection of material within the locality that BOU-VP-12/1 was found, several mammal bones were found that have [cut marks &  percussion marks made by stone tools](https://www.semanticscholar.org/paper/Environment-and-behavior-of-2.5-million-year-old-Heinzelin-Clark/585a2c3958e56d954267ae836a1e00e13a580c29). Moreover, stone tools from the nearby [Gona site dating to 2.6 mya](https://www.smithsonianmag.com/science-nature/becoming-human-the-origin-of-stone-tools-55335180/) were also uncovered. 
+This was shocking since at the time many paleoanthropologists thought that only members of the genus *Homo* could make stone tools. Nowadays I think this hypothesis is, while not completely falsified, very much in doubt. A few years back we learned of the [Lomekwian tradition](https://www.smithsonianmag.com/science-nature/oldest-known-stone-tools-unearthed-kenya-180955341/), which dates to 3.3 and also suggests that stone tool production predates our genus. 
+
+Of course, it may be that *Homo* is earlier and we just aren't finding examples of it. Also, many non-human species [use tools]( https://www.vox.com/future-perfect/2019/10/11/20909685/pigs-use-tools-video-study-animal-intelligence) and some even use [stones to crack open nuts]( https://www.sciencealert.com/the-capuchin-stone-age-has-a-3-000-year-old-archaeological-record). 
+
+These pre-*Homo* technologies are an indication that maybe other species of hominins were innovating and creating new ways to be human (or human-like). Some of these techniques may have never become part of the human niche, but others may have had a significant, but unknown, influence in the processes of becoming human.
+
+
