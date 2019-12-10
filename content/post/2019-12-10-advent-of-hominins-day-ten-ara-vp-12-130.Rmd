@@ -20,7 +20,7 @@ library(leaflet)
 
 # ARA-VP-12/130
 
-This specimen, Found  by Haile-Selassie in 1997 in Afar depression, Ethiopia , is described in a paper by [Berhane Asfaw and colleagues in 1999](https://science.sciencemag.org/content/284/5414/629). It consists of cranial fragments from the frontal, parietals, and the maxilla with much of the dentition. 
+This specimen, found  by Haile-Selassie in 1997 in Afar depression, Ethiopia, is described in a paper by [Berhane Asfaw and colleagues in 1999](https://science.sciencemag.org/content/284/5414/629). It consists of cranial fragments from the frontal, parietals, and the maxilla with much of the dentition. 
 ```{r  echo=FALSE}
 
 map_gahri <- leaflet()  %>% 
