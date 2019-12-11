@@ -1,0 +1,57 @@
+---
+title: advent-of-hominins-day-eleven-LD-350-1
+author: Marc Kissel
+date: '2019-12-11'
+slug: advent-of-hominins-day-eleven-ld-350-1
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+# LD-350-1
+
+<img src="/img/Villmoare_et_al_2015.jpg" title ="LD 350-1 mandible. From Villmoare et al 2015." width = "400" height = "400" >
+
+
+Discovered in 2013 by Chalachew Seyoum at the Ledi-Geraru research area in Ethiopia, this 2.8-2.75 mya left mandible preserves parts of the canine, the 2 premolars and the 3 molars. It has been proposed to be a member of the genus *Homo*, making it the earliest known specimen of our genus. 
+
+```{r  echo=FALSE}
+
+map_ledi <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=40.7, lat=11.25, popup="aprox location of ld-350-1") %>% setView(lng=40.7, lat=11.25, zoom = 2)
+
+map_ledi
+```
+
+
+As it was found close to Hadar, where many *A. afarensis* fossils [were found](https://marckissel.netlify.com/post/advent-of-hominins-day-seven-al-288/), it is easy to think that it might be a late-surviving member of that species. However, the scientists who studied this mandible point to some [important differences](https://science.sciencemag.org/content/347/6228/1352). While the size of its teeth are similar to that seen in *A. afarensis*, other features seem to suggest that it is not a member of that species. The wear & cusp patterns of the teeth, and the general shape of the mandible suggest to some that it is more derived and thus less like an australopith. For example, the mental foramen opens directly posteriorly, a common condition in early and modern Homo^[At one point I had an almost unhealthy fascination with the shape, orientation,  and placement of the mental foramen]. The third molar is smaller than the second molar, another pattern seen in *Homo*.  
+
+In general, the shape of the jaw is rounder than seen in Australopithecines, who had a narrower and longer jaw. Based on these features, they argue it is an early, and possibly the earliest, example of the *Homo* genus.
+
+
+[Not everyone agrees that the Ledi-Geraru mandible should be placed in our genus](https://science.sciencemag.org/content/348/6241/1326.2). These researchers note that the features said to be more derived do not, in fact, allow it to be placed in our genus. In their response, the original researchers argue that their original designation still stands. It is an interesting debate for sure and will probably only be answered by finding more fossils at Ledi-Geraru^[the phrase  "finding more fossils will answer the question" is probably one of the most used phrases in biological anthropology, only surpassed by saying that the Acheulean handaxe was the "Swiss army knife of the Paleolithic" & calling the mitochondria the "powerhouse of the cell"]  .
+
+The [paleoenvironmental data](https://science.sciencemag.org/content/347/6228/1355) suggests that there was a faunal turnover, during which time new species entered the region. These data indicate a more open & arid habitat, one with grasslands & low shrubs. This is different than the enviornment that *A. afarensis* lived in. If the attribution to *Homo* holds then this supports the idea that the new resources in such an environment may have helped to drive aspects of human evolution.
+
+The period of time around 3 mya is clearly a really important time for human evolution!
+
+---
+
+FYI: just like Laetoli, Ledi would be a **great** name for a cat!
+
+
+
+
+
+
