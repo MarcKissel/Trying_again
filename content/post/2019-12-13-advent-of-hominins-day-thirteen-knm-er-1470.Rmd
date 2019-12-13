@@ -1,0 +1,67 @@
+---
+title: 'advent-of-hominins-day-thirteen-KNM-ER-1470 '
+author: Marc Kissel
+date: '2019-12-13'
+slug: advent-of-hominins-day-thirteen-knm-er-1470
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+# KNM-ER 1470 
+
+There is a lot that can be said about this fossil. Found in 1972 by Bernard Ngeneo it, like [OH 5](https://marckissel.netlify.com/post/advent-of-hominins-day-twelve-oh-5/), has attained a sort of iconic status in the field. It was found in Koobi Fora, a region of Kenya on the eastern part of Lake Turkana^[When Europeans 'named' the lake, they did so in honor of the Crown Prince of Austria Rudolf. So for awhile it was known as Lake Rudolf, which is where the ER in the catalog name comes from (Kenya National Museum- East Rudolf). It was renamed after Kenyan independence after one of the people who live there.]
+
+
+```{r  echo=FALSE}
+
+map_1470 <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=36.187222, lat=3.947778, popup="aprox location of KNM-ER 1470") %>% setView(lng=36, lat=3.9, zoom = 2)
+
+map_1470
+```
+
+
+
+When it was found it was in over 100 pieces and  had to be pieced together (imagine doing a 3d jigsaw puzzle where you don't have all the pieces and not really sure what the final image is supposed to be). The specimen dates to ~1.9 mya and  consists of 2 main parts: the top of the skull & part of the face. 
+
+<img src="/img/1470_talkorigins.jpg" title ="KNM-ER 1470. img from www.talkorigins.org." width = "400" height = "400" >
+
+
+Its  larger size (752 cm^3^) and flat face make it stand out from other examples found for early *Homo*,  making some wonder if 1470's morphology can be fit into a single species model of early Homo. 
+
+The image below compares 1470 to KNM-ER 1813 (which is usualy considered to be a female *H. habilis*). Note the larger size of 1470. For some, it shows temporal, geographic, or sexual variation of *Homo habilis*. For others, its morphology suggests that there was more species diversity due to differences in cranial size and masticatory patterns.
+
+
+<img src="/img/1470_1813.png" title ="KNM-ER 1470. img from www.talkorigins.org." width = "400" height = "400" >
+
+
+
+
+Because of these differences, some have suggested that rather than it being *Homo habilis*  we should place this skull in *Homo rudolfensis*.
+
+Others have questioned how 'flat' the face really is. The main issue here is how to connect the face of the skull to the top of the skull. The figure below (from Bromage et al) shows the two main pieces seperated:
+
+
+<img src= "/img/1470_bromage.JPG" title = "Superior  view of  KNM-ER 1470 with isolated facial part. img from Bromage et al 2008" width = "400" height = "400">
+
+
+The question is how much to 'swing the face' out at an angle when connecting it to the top of the skull via  the nasal region (There is a [great story](https://www.google.com/books/edition/Bones_of_Contention/hoBZmtfO-0AC?hl=en&gbpv=1&bsq=1470%20maxilla) about how this debate happened at the Koobi Fora base camp). If the front of the face is  forward, it has a bit of a longer face and looks more Australopithecine-like, or it can be tucked more under the skull and have a more derived appearance^[In grad school we had the cast in 2 pieces that let you try to connect the two. It was interesting to see how changing the angle affected how short the face seemed ].
+
+More recent finds announced in 2012 such as the KNM-ER 62000 face & the KNM-ER 60000 mandible help to support the hypothesis of more than one species of early *Homo* in eastern Africa. Some have even suggested links between 1470 and the [KNM-WT 40000 skull](http://www.efossils.org/page/boneviewer/Kenyanthropus%20platyops/KNM-WT%2040000), which has a very flat face and high cheekbones and dates to 3.5 mya. As KNM-WT 40000 is sometimes placed in its own genus, *Kenyanthropus platyops*, this would be a **very** provocative hypothesis!
+
+
+
+### Further reading
+
+[3D model of 1470](https://africanfossils.org/hominids/knmer-1470)
