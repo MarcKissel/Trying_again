@@ -1,0 +1,48 @@
+---
+title: advent-of-hominins-day-advent-of-hominins-day-fourteen-knm-er-1813
+author: Marc Kissel
+date: '2019-12-14'
+slug: advent-of-hominins-day-advent-of-hominins-day-fourteen-knm-er-1813
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+KNM-ER 1813 was found by ledgendary fossil hunter [Kamoya Kimeu]( https://leakeyfoundation.org/fossil-finders-kamoya-kimeu/). Like [KNM-ER 1470](https://marckissel.netlify.com/post/advent-of-hominins-day-thirteen-knm-er-1470/), this fossil comes from the Koobi Fora region of Tanzania and dates to around 1.9 mya. 
+
+```{r  echo=FALSE}
+
+map_1813 <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=36.187222, lat=3.947778, popup="aprox location of KNM-ER 1813") %>% setView(lng=36, lat=3.9, zoom = 2)
+
+map_1813
+```
+
+Its cranial capacity is ~ 510 cm^3^, mich smaller than 1470’s and part of the reason that the skulls have been placed into two different species.
+
+
+<img src="/img/Knm_er_1813_fineartamerica.JPG" title ="KNM-ER 1813. img from https://fineartamerica.com/featured/skull-of-homo-habilis-knm-er-1813-john-readerscience-photo-library.html" width = "400" height = "400" >
+
+
+While fairly complete, it is missing the left zygomatic, parts of the vault, most  of the sphenoid, and parts of the occipital. The braincase is also somewhat warped and If you look carefully the face skews towards the left side. That being said, it is probably one of the most complete skulls with have from early *Homo*.
+
+Its face is short, shows little prognathism, has relatively small molars,  and has a [more parabolic rather than U-shaped palate](https://www.ncbi.nlm.nih.gov/pubmed/28526290). This is evidence of a more **derived** morphology compared to the Australopiths.  For these reasons, this fossil is usually considered to be *Homo habilis*. However, the question of if it and KNM-ER 1470 are the same species is still up-for-debate as 1470 is larger. The question of how many speices are represented at Koobi Fora has generated a lot of debate. As noted on day 13 this could be explained by sexual polymorphisim, with 1813 being female and 1470 being male, but the nature of the differences between the two are unusual for a single species. 
+
+ Another issue that is realted to these crania is their behavior. For many, the evolution of the genus *Homo* is linked to the [origins of meat-eating](https://www.nature.com/scitable/knowledge/library/evidence-for-meat-eating-by-early-humans-103874273/). At sites such as [FLK-Zinj](https://marckissel.netlify.com/post/advent-of-hominins-day-twelve-oh-5/), alongside the many hominin fossils archaeologists recovered fanual remains that seem to have been the food remains of hominins (broken bones with cutmarks on them). How these bones got there & what they mean for the diet of early *Homo* is **hotly debated**
+
+The question of *if* and *how* early Homo were able to obtain vertebrate meat has engendered much research. Lewis Binford (he of processual archaeology fame) argued that early *Homo* was the most marginal of scavengers. On the other hand, Glynn Isaac and his students, most notably Henry Bunn & Ellen Kroll, argued that *Homo*  were more successful and that the evolution of larger brains was in part a response to meat-eating. In the 1980s The pages of *Current Anthropology* were full of backs-and-forth between Binford and Bunn/Kroll^[As Henry once told me, it didn't get to four letter words but did get close in tone....]. Part of the question is how early *Homo* would have obtained  meat, since we have little evidence of weapons. Some have argued for persistence hunting (i.e. running an animal to death) while others think a form of power scavenging would have worked. 
+
+
+This debate is still ongoing. Scholars like [Briana Pobiner](https://www.americanscientist.org/article/meat-eating-among-the-earliest-humans) are  continuing  to study the origins of hominin carnivory with new techniques & data
+
+
+https://www.nature.com/scitable/knowledge/library/evidence-for-meat-eating-by-early-humans-103874273/
