@@ -1,0 +1,76 @@
+---
+title: advent-of-hominins-day-fifteen-WT-15000
+author: Marc Kissel
+date: '2019-12-15'
+slug: advent-of-hominins-day-fifteen-wt-15000
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# KNM-WT 15000
+
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+This fairly complete skeleton of a young boy was found by Kamoya Kimeu in 1984 in Nariokotome, Kenya. It is about ~1.6 MYA and is known by various names such as Nariokotome Boy, Turkana Boy, and WT 15K.
+
+```{r  echo=FALSE}
+
+map_15k <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=36.187222, lat=3.947778, popup="aprox location of KNM-WT-15000") %>% setView(lng=36, lat=3.9, zoom = 2)
+
+map_15k
+```
+
+
+<img src="/img/15k.jpg" title =  "KNM-WT 15000. from http://projects.leadr.msu.edu/hominidfossils" width = "400" height = "400" >
+
+The cranium is ~ 880 cm^3^ but may have reached a total size of closer to 900 cm^3^ if he lived to adulthood. He has smaller teeth than seen in earlier members of the genus *Homo*. Unlike modern humans that have tall cranial vaults, this boy had a low and long vault. For the reasons, he is either placed in the *Homo ergaster* or *Homo erectus*. KNM-WT 15000 may have suffered from scoliosis and/or spina bifida.
+
+
+Sources differ on the age of the child at death, with estimates placing him between 8-13 years old (confusingly, his *skeletal* age is older than his *dental* age). At the time of death, he was about ~160 cm tall (5 feet, three inches). His stature if he had become fully grown is unclear, with estimates ranging from 163 cm (5'4") to 185 cm (6'1"). 
+
+
+His height at adulthood is important as the rate of growth from a juvenile to an adult informs us on the individual’s life history, the timing and sequence of life events. Life history determines how an organism allocates energy for growth, maintenance, and reproduction. Modern humans have an extended life history pattern, which is why it takes so long for us to reach adulthood.^[This also means that human kids need a lot of help to survive, something which any caregiver is well aware of. Hence babies and children being cute may be a way to produce care-giving emotions in adults...]
+
+
+Why does this matter? Well, If he would have reached 6 feet tall it would suggest that was a transition from an *Australopithecus*-like body to a more linear body build that was adapted to the heat. If this is the case, then *H. erectus*/*H. ergaster* shows major changes in its body form. For example, it would show that height increased almost 50% in this species.^[to put that into perspective, someone 50% taller than me would be 8'6".] We aren’t sure **why** getting taller would be evolutionary advantageous. Perhaps it is because an increased stride length lets you walk farther, or that it allowed for better thermoregulation, or maybe it has to do with predator avoidance. 
+
+
+Others, however question if he would have gone through an adolescent growth spurt, something which allows young *H. sapiens* to remain small and only get to full body size once they have learned social skills needed to survive. If Nariokotome  was growing substantially faster than expected for a modern human, as some scholars propose, he wouldn’t have had this growth spurt. In other words, it may have had a more chimpanzee-like life history.
+
+
+There is a lot more that could be said about this fossil. For example, the thoracic vertebral canal is not as expanded as it is in humans and in Neandertals. This expansion has been linked to breathing control for  language production.  In other words, these data suggest its language capabilities would not have been similar to modern humans. 
+
+
+*Homo erectus*/*Homo ergaster* may have been the first hominin to use fire, but this is hotly debated^[I’m not going to fan the flames of the debate here, but let’s just say that this has sparked a lot of  research that shed light on some important aspects of human behavior]. 
+
+Their technology is also different from the Oldowan technology associated with *Homo habilis*. While the function of the [Acheulean handaxe](https://en.wikipedia.org/wiki/Acheulean) is unclear, they may have been used to butcher animals or dig roots. Some lithic experts have suggested that these tools could only have been made via direct teaching, which may require some type of language.
+
+
+<img src="/img/handaxe_wiki-thumbnail.jpg" title =  "handaxe From Wikipedia" width = "400" height = "400" >
+
+
+Another important thing about Nariokotome boy's species is that it may have been the first to expand its range outside of Africa. But more on that later...
+
+
+
+### Further reading
+
+[A site tour around Nariokotome, the archaeology of the Holocene, and a bit of digging in the dirt](http://www.turkanabasin.org/2016/04/a-site-tour-around-nariokotome-the-archaeology-of-the-holocene-and-a-bit-of-digging-in-the-dirt/)
+
+[The Wisdom of the Bones by Alan Walker and Pat Shipman](https://www.penguinrandomhouse.com/books/184866/the-wisdom-of-the-bones-by-alan-walker-and-pat-shipman/)
+
+
+
+
