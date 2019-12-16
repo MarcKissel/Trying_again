@@ -23,15 +23,6 @@ library(leaflet)
 
 This fairly complete skeleton of a young boy was found by Kamoya Kimeu in 1984 in Nariokotome, Kenya. It is about ~1.6 MYA and is known by various names such as Nariokotome Boy, Turkana Boy, and WT 15K.
 
-```{r  echo=FALSE}
-
-map_15k <- leaflet()  %>% 
-  addTiles() %>%  
-  addMarkers(lng=36.187222, lat=3.947778, popup="aprox location of KNM-WT-15000") %>% setView(lng=36, lat=3.9, zoom = 2)
-
-map_15k
-```
-
 
 <img src="/img/15k.jpg" title =  "KNM-WT 15000. from http://projects.leadr.msu.edu/hominidfossils" width = "400" height = "400" >
 
