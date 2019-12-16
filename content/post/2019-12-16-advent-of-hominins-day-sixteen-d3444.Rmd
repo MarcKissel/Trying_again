@@ -1,0 +1,80 @@
+---
+title: advent-of-hominins-day-sixteen-D3444
+author: Marc Kissel
+date: '2019-12-16'
+slug: advent-of-hominins-day-sixteen-d3444
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# D3444 & D3900 
+
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+The site of Dmanisi in Georgia has been the source of many amazing hominin finds, including 5 well-preserved skulls usually considered to be *Homo  erectus*. Some have proposed a separate species, *Homo georgicus*, but this name hasn't really be used much. At 1.8 mya, they are the first fossil evidence of hominins outside of Africa. 
+
+```{r  echo=FALSE}
+
+map_D3444 <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=44.35, lat=41.316667, popup="aprox location of Dmanisi") %>% setView(lng=44.35, lat=41.316667, zoom = 2)
+
+map_D3444
+```
+
+There is a lot that can be said for each of the five skulls. The amount of morphological variation within the sample is large. Given that they seem to all be ~1.8 mya and are presumed to be of the same species, this implies there was a lot of variation within a single species. Moreover, the Dmanisi sample, including D3444, are mostly small-brained and small-bodied. The stone tools at the site show hominins with well-developed skills in making tools out of stone, but the tool types are also closer to the Oldowan tools associated  with *Homo habilis* than the Acheulean associated with *Homo erectus*
+
+
+This is somewhat suprising. They seem more *primative* than other *H. erectus* found outside of Africa. Why and how they got to Dmanisi is an open question and one that makes us rethink ideas of what caused range exapanion in this population. 
+
+
+The skull for today is D3444 an elderly individual with a cranial capacity ~650 cm^3^. There is also an associated mandible  (D3900).
+
+
+<img src="/img/D3444.JPG" title = "D3444 cranium & D3900 mandible. Note most of the teeth are missing." width= 400 height = 400>
+
+
+The most striking aspect of the fossil is that it is edentulous: all the upper teeth and most of the lower teeth were lost *before* death. The maxilla (upper jaw) shows complete resorption of the tooth sockets. For the mandible, the left canine is still present otherwise all the other sockets have been resorbed. In fact, the body of the mandible  has been resorbed down to the level of the mental foramen.
+
+<img src="/img/D3900.JPG" title = "D3900 mandible, which was reduced in size as a consequence of
+remodeling." width= 400 height = 400 >
+
+
+
+Based on the level of atrophy in the bone, [researchers concluded that most of the teeth were lost many years before the individual died](https://www.pnas.org/content/110/43/17278).
+ 
+
+
+
+Why is this important? Well, it looks like the individual survived  without consuming foods that required heavy chewing. They could have been eating soft foods such as plants or marrow. Or, perhaps they  had help from others. This opens up some interesting questions and thoughts about the social structure and life history of *H. erectus*.  [Nariokotome Boy](https://marckissel.netlify.com/post/advent-of-hominins-day-fifteen-wt-15000/) may  have suffered from a herniated disk, which also suggests assistance. Not everyone agrees with this interpretation of the edentulous cranium.^[if you were nice enough to read all of these posts, you might see this is a common theme!] For some, there isn't enough evidence to conclude that conspecific care was going on. 
+
+
+For a long time scholars prompted a [“Nature red in tooth and claw”](https://poets.org/poem/memoriam-h-h) view on human origins, which sees violence, aggression, and even war as prime movers in human evolution. But perhaps we have overstated the role aggression plays and understated the role of compassion and humanity played. In fact, archaeologist Penny Spikins has argued that [compassion made us human](https://www.google.com/books/edition/How_Compassion_Made_Us_Human/elzdCQAAQBAJ?hl=en&gbpv=1&dq=how+compassion+made+us+human&printsec=frontcover). 
+
+
+A lot more could be said about this site and these fossils! See below for other sources and more infomation. 
+
+
+### Further reading
+
+[Some background on the site](http://www.dmanisi.ge/page?id=2&lang=en)
+
+
+[Meet the frail, small-brained people who first trekked out of Africa by Ann Gibbons](https://www.sciencemag.org/news/2016/11/meet-frail-small-brained-people-who-first-trekked-out-africa)
+
+
+[Artist John Gurche reconstruction of *H. erectus*](http://gurche.com/apes-2)
+
+[John Hawks on the Dmanisi sample](http://johnhawks.net/weblog/fossils/lower/dmanisi/d4500-lordkipanidze-2013.html)
+
+
