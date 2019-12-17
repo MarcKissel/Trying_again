@@ -1,0 +1,69 @@
+---
+title: 'advent-of-hominins-day-seventeen-Mojokerto-1 '
+author: Marc Kissel
+date: '2019-12-17'
+slug: advent-of-hominins-day-seventeen-mojokerto-1
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+
+# Mojokerto
+
+<img src="/img/Huffman_mojokerto.jpg" title = "Mojokerto skull. Image from Huffman et al. 2005" width = "400" height = "400" >
+
+This fossil of a juvenile *Homo erectus* comes from near Perning in East Java, Indonesia. The calvaria is almost complete. It is known "Mojokerto"  or "Perning 1" and is ~ 630 cm^3^. The age at death of the individual is unknown. Some suggest it might be ~8 years old but others put it around 6-18 months. Its species status is also debated and has been placed in  *Homo soloensis*, *Pithecanthropus modjokertensis*, *Homo erectus*, & *Australopithecus*. I think most scholars suggest it is a variant of *Homo erectus*.
+
+
+
+```{r  echo=FALSE}
+
+Mojokerto <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng=112.433611, lat=-7.472222, popup="aprox location of Mojokerto skull") %>% setView(lng=112.433611, lat=-7.472222, zoom = 2)
+
+Mojokerto
+```
+
+
+
+
+
+
+
+One of the most pressing issues is the geological age of the skull. It was [first found by Andoyo](https://www.ncbi.nlm.nih.gov/pubmed/15788182), a fossil collector, on February 13, 1936. 
+Much work has gone into discerning if the skull was collected from the surface or unearthed from the bedrock. Swisher and colleagues (1994) proposed an age of the skull ~1.81  Ma. They did this by  matching sediments found in the skull to similar materials at the site where it may have been found. Not everyone accepts this old date, however. Others put it closer to 780,000 years ago and [A recent analysis](https://www.ncbi.nlm.nih.gov/pubmed/23815827) suggests an age between 1.2-1.8 ma. 
+
+
+A really [fascinating investigation](https://www.ncbi.nlm.nih.gov/pubmed/15788182) into this question in 2005 concluded "it very likely that the Mojokerto skull was found in situ in Pucangan sandstone. We hope that this exposition on the discovery of the skull will restore the usefulness of the specimen to broader considerations of the evolution of the genus Homo." Based on this research they conclude that the skull was ~1.43 ma.
+
+
+
+Why does the date matter? Well,  if it really is 1.81 mya than it is older than most of the *Homo erectus* fossils from Africa and would be one of the oldest, if not the oldest, fossil hominin in Asia. Paleoanthropologists often speak of the *Out Of Arica 1* event, when hominins began to move to regions outside of Africa. Knowing when this first happened can allow us to better understand why it happened.
+
+
+
+As with [WT 15000](https://marckissel.netlify.com/post/advent-of-hominins-day-fifteen-wt-15000/), data from pre-adults can inform on the development trajectory of pre-human hominins. In this case, we can look at the rate of brain growth. In modern humans the brain grows very fast during the first year or so of life. While humans have relatively small brains at birth, we experience high rates of prenatal brain growth.
+
+
+[One study](https://www.ncbi.nlm.nih.gov/pubmed/15927659) of the endocranium suggests the growth and development of the *Homo erectus* brain was different from that of modern humans. A [study by O'Connell & DeSilva](https://www.ncbi.nlm.nih.gov/pubmed/23815827) examined brain ontogeny in humans and chimps. They suggest that Mojokerto had reached 70% of its adult cranial capacity, between the average growth in humans and chimpanzees.  They argue that *H. erectus* was developing along the continuum of variation between the human and chimps.
+
+
+O'Connell & DeSilva suggest that these data may mean that *H. erectus*'s brain development emphasized learning. Perhaps the foundations of language were present in *H. erectus*!
+
+
+
+### Further reading
+
+[Historical Evidence of the 1936 MojokertoSkull Discovery, East Java by Huffman et al.  (2005)](https://www.researchgate.net/publication/7948010_Historical_Evidence_of_the_1936_Mojokerto_Skull_Discovery_East_Java)
