@@ -1,0 +1,83 @@
+---
+title: advent-of-hominins-day-eighteen-ATE9-1
+author: Marc Kissel
+date: '2019-12-18'
+slug: advent-of-hominins-day-eighteen-ate9-1
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+# ATE9-1
+
+
+<img src ="/img/Carbonell.jpg" title = "ATE9-1 Mandible with the isolated lower premolar. From Carbonell et al 2008" width = "400" height  ="400" >
+
+This mandible was found in 2007 and  comes from the site of Sima del Elefante, in the Sierra de Atapuerca of northern Spain.  
+
+
+The sites from the caves in this region are [World Heritage Sites]( https://whc.unesco.org/en/list/989/) and have provided a lot of data on hominin behavior (especially the Sima de los Huesos which has ~28 individuals dated to over 400,000 years ago). 
+
+```{r  echo=FALSE}
+
+ate9 <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= -3.522222, lat= 42.366667, popup="aprox location of Sima del Elefante") %>% setView(lng= -3.522222, lat= 42.366667, zoom = 2)
+
+ate9
+```
+
+
+
+This mandible fragment is one of the oldest hominins known from western Europe with the archaeological level it was found in dating  to ~1.3–1.1 Mya.
+
+
+There is not much of the fossil left. The symphyseal region (the part of the mandible where the two halves fuse together at about 2 yrs old) is present and parts of the left and right body of the mandible. Roots of some of the teeth are also preserved. The lower second bicuspid (also known as a premolar) was also found. 
+
+
+While it was originally considered to be *Homo antecessor* (a hominin known from other sites in the same region dating to around 800,000 years ago), a more complete analysis , comparing it to other hominin mandibles  and studying the morphology of the lower premolar suggests it should best be assigned to *Homo sp*.^[In other words, it is in the genus *Homo* but an unknown species.] 
+
+The lithic assemblage includes four flakes and indeterminate items made of raw materials available within 2km of the archaeological site. The lithics are similar to other sites of the time period and were probably used to process/eat meat and marrow. 
+
+
+A study by [Karen Hardy and colleagues]( https://www.ncbi.nlm.nih.gov/pubmed/27981368) examined the dental calculus, hardened dental plaque, that was found on the tooth. They show that the diet of this individual was composed of starchy carbohydrates from two plants, meat, and plant fibers. Interestingly, there is no evidence that the foods were cooked. They also found evidence that the individual used a wooded implement to clean their teeth (i.e. used a tooth pick of sorts!) .
+
+
+This early date shows that western Europe was colonized earlier than previously believed. Rather than being empty before ~700,000 years  ago, the data from this and other sites in the Ataperuca mountains  suggest Europe was occupied for over a million years. This early onset of hominins in Europe suggests it was colonized around the same time as the first Out of Arica event, where hominins first moved outside of the continent of Africa. 
+
+The scientists who described this fossil suggest that the presence of some  features in ATE9-1 suggests that there are derived changes away from morphologies typical of African hominins.
+
+
+[They write that]( https://www.sciencedirect.com/science/article/abs/pii/S0047248411000820):
+
+
+>The dispersal of the first
+African emigrants through narrow corridors, overcoming several
+geographic barriers and climatic factors until reaching the extreme
+part of Europe, could have favoured genetic drift, long isolation
+periods, and localized adaptation to new climatic and seasonal
+conditions. Given these conditions and the fact that we are dealing
+with a long time periods, one or more speciation events could have
+occurred in this extreme part of Eurasia during the Early Pleistocene,
+originating in the hominin lineages represented by the Sima
+del Elefante-TE9, and, possibly, the Gran Dolina-TD6 hominins
+
+
+In other words, a small population may have found the lineage in this region. Small founding sizes are often affected by genetic drift, random fluctuations in the frequency of genes. The connection between Sima sel Elefante and the site of Gran Dolina (200 meters away and ~800 kya) is unclear but provides really interesting data to think about how hominin colonization of new regions occurred. Perhpas at one point, these hominids realized they were in a place where no hominin had gone before. What that must have been like, and how they adapted to new environments, is a question that is driving a lot of current research. 
+
+
+
+
+
+
