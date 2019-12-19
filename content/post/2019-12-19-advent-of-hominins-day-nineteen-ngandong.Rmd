@@ -1,0 +1,83 @@
+---
+title: advent-of-hominins-day-nineteen-Ngandong
+author: Marc Kissel
+date: '2019-12-19'
+slug: advent-of-hominins-day-nineteen-ngandong
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+<img src="/img/rizal-et-al_ciochon-with-ngandong-fossil-casts.jpg" title = "Casts of the Ngandong fossils. from https://www.smithsonianmag.com/" width = "400" height = "400">
+
+
+The sample from Ngandong consists of the cranial vaults  and 2 lower leg bones of about a dozen hominins. They were found in the 1930s near the Solo River in Ngandong, Java and are sometimes refered to as “Solo Man. St one point were given the species name *Homo soloensis*. The majority of researchers follow the work of Santa Luca who suggested that they belong to the *Homo erectus* group, though some experts suggest the name *Homo erectus soloensis*.
+
+
+
+```{r  echo=FALSE}
+
+Ngandong <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= 111.416667, lat= -6.95, popup="aprox location of Ngandong") %>% setView(lng= 111.416667, lat= -6.95, zoom = 2)
+
+Ngandong
+```
+
+
+
+Many of the fossils were described by [Franz Weidenreich]( https://en.wikipedia.org/wiki/Franz_Weidenreich) in 1951. Ngandong 7, for example, has a lesion that Weidenreich suggested might be due to an inflamed wound.  As a sample, they share a number of traits  that link them together, such as thick bones & fairly large browridges. Their estimated cranial capacities range from 1,015 to 1,250 cm^3^.  Interestingly, there are a number of shared features found in all of the *Homo erectus* from the region, suggesting a shared lineage. 
+
+
+The benefit of doing a *hominin-fossil-a-day* calendar at the last minute is that entries can be updated in real time. As of yesterday(!) we have [more information]( https://www.nature.com/articles/s41586-019-1863-2) on how the bones were accumulated. Like many fossils that were excavated years ago, the date of these fossils have been subject to much debate. At one point, [scientists argued]( https://science.sciencemag.org/content/274/5294/1870) that sites gave mean ages of 27 ± 2 to 53.3 ± 4 thousand years. This very recent date implies that *H. erectus* could have met and exchanged ideas, objects, and genes with *H. sapiens*.
+
+
+But in this new study Yan Rizal and colleagues argue that the fossils are between 117,000-108,000 years old.  The way they dated these specimens is quite remarkable. They examined and dated the changing flow of the Solo River and the formation of the terrace on which the bones were found. Their research, which included locating the spot in which the fossils were first excavated in 1931, lets them hypothesize how the skulls were accumulated. They argue that the individuals died and then got washed into the Solo River deposits. 
+
+
+
+>The demise of H. erectus and
+other vertebrates evidently occurred upriver of Ngandong—possibly
+caused by the changing environmental conditions17. The skeletonized
+and disarticulated remains were then entrained by lahar flows and
+monsoonal flooding of the Solo River.
+
+
+
+
+So they would have died upriver  and then been washed downstream. A lahar is a mix of water and rock fragments that can flow down a river valley. According [to the USGS](https://volcanoes.usgs.gov/vhp/lahars.html),  “A moving lahar looks like a roiling slurry of wet concrete, and as it rushes downstream, the size, speed, and amount of material carried can constantly change” 
+
+<iframe width="644" height="362" src="https://www.youtube.com/embed/TpwiFtVRBTs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+This hypothesis  helps to answer a question that has puzzled a lot of us over the years: **Why were  mostly only the skulls present**.	 Maybe the other, heavier bones ended up elsewhere but the skull fragments are lighter and floated towards the top.
+
+If the date holds up this would still be the last known appearance of *Homo erectus*.^[There are other sites in Java that could still be redated and obtain even more recent dates, but it does suggest that this population was late-surviving,] The *H. erectus* population would not have overlapped with modern humans in the region as *H. sapiens* don’t show up till ~30 ka years later.  Instead, the data suggest that the “last, dying remnants of the archaic fauna and open woodland environments that
+were superseded by the impeding rainforest flora and fauna associated
+with Punung“ 
+
+When the rainforest environment became common, *H. erectus* seems to have disappeared in the region. 
+
+
+
+
+
+
+
+
+
+
+
+
