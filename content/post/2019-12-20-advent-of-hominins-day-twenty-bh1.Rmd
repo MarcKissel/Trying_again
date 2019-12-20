@@ -1,0 +1,65 @@
+---
+title: advent-of-hominins-day-twenty-BH1
+author: Marc Kissel
+date: '2019-12-20'
+slug: advent-of-hominins-day-twenty-bh1
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# Kabwe
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+
+```
+
+
+<img src="/img/Kabwe.jpg" title = "Kabwe. Image from Balzeau et al 2017" height = "400" width = "400">
+
+
+The Kabwe fossil comes from the site of Broken Hill, Zambia (the nearby town is now known as Kabwe, and thus some prefer this term to refer to the site and cultural remains). The site was located on a small hill (referred to as a kopje) that was originally around 15 meters high. However, mining for zinc and copper had erased the hill from the landscape by 1930. Sadly, many of the artefacts and bones (including a hominin clavicle) have been lost over the years.
+
+The skull was found by Tom Zwigglar^[one of my favorite comments in a journal article is the one that describes him as “a serious middle-aged man, not highly educated but of good common sense”] a Swiss miner and African miners whose names are unrecorded on June 17, 1921
+
+For a great overview of the history and current status of the skull see [Decolonising the Broken Hill Skull: Cultural Loss and a Pathway to Zambian Archaeological Sovereignty](https://www.researchgate.net/publication/257505958_Decolonising_the_Broken_Hill_Skull_Cultural_Loss_and_a_Pathway_to_Zambian_Archaeological_Sovereignty).
+
+
+
+
+```{r  echo=FALSE}
+
+Kabwe <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= 28.426, lat= -14.46, popup="aprox location of Kabwe") %>% setView(lng= 28.426, lat= -14.46, zoom = 2)
+
+Kabwe
+```
+
+
+The skull is largely complete (the right temporal bone and parts of the base of the cranium are missing). One intriguing aspect of the cranium is  8 cm hole in the left squamous temporal. The reason for this lesion is uncertain, though may be a sign of a [chronic ear disease](https://onlinelibrary.wiley.com/doi/abs/10.1002/oa.1390040411). The upper jaw (the maxilla) has 15 teeth still intact, including all 6 molars. Many of the teeth have dental carries, which, as [Sarah Lacy has shown](https://www.ncbi.nlm.nih.gov/pubmed/29539491), may suggest that the individual suffered from a systemic inflammation associated with lead exposure and periodontal disease.
+
+The cranium has an estimated cranial capacity of 1280 cm^3^, and an expanded mid-vault. The face itself is somewhat forwardly placed and has a heavy brow ridge. Also, the cranial base is not [as flexed](https://www.nature.com/scitable/knowledge/library/primate-cranial-diversity-108207646/) as it is in most modern humans. However, the general shape of the brain is similar to that seen in modern humans.
+
+
+Its large cranial capacity and less strongly curved occipital bone  suggests to some a  more derived morphology than  *H. erectus* but not fully  *H. sapiens*. Some prefer either *Homo rhodesiensis* or *Homo heidelbergensis*, while others lump it into a category of *archaic* humans.
+
+
+Interestingly, the same mine this skull was found in yielded  some of the earliest known tools made from animal bones, though many of which have subsequently been lost.^[Barham and colleagues located three bone tools from the collections.] However, the date of the cultural materials, and their association with the skull, is unclear.  Some interpretations suggest the bulk of the fossils are from a higher level than the skull, which would suggest that the fauna and archaeological remains might not be associated with the cranium. 
+
+
+Due to the find site being a quarry, there are no intact deposits and thus dating is difficult. Biostratigraphic data suggest it is similar in age to the hominin fossils from Bodo and Elandsfontein (~800-600 kya), while other  put it around 300 ka. I'm not sure if there is a current accepted date at all. 
+
+
+One of the most salient questions regarding this skull is the issue of repatriation. [As Michael Balter reports](https://www.sapiens.org/evolution/repatriation-kabwe-skull/) Zambian officials have been trying to get the skull and other bones back. I can do no better than echo the quote below from Wendy Black, a great scientist who i have had the pleasure of working with at the Iziko Museums
+
+>“The pride that Africans feel about ancestry is unwavering and pronounced,” writes Wendy Black, curator of pre-colonial archaeology at the Iziko Museums of South Africa in Cape Town. “For Africans, repatriation of these items is viewed as part of a healing process, where all parties concerned can make amends, forgive, and move on.”
+
+It is currently difficult to trace a clear distinction as to which fossils belong to the *Homo sapiens* group. Kabwe’s placement in the braided stream of hominin evolution is difficult to assess but it does inform on the complex nature of evolution after 1 million years ago. 
+
