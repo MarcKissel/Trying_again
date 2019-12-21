@@ -1,0 +1,67 @@
+---
+title: advent-of-hominins-day-twentyone-Florisbad
+author: Marc Kissel
+date: '2019-12-21'
+slug: advent-of-hominins-day-twentyone-florisbad
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# Florisbad
+
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+<img src ="/img/Florisbad_flickr.jpg" title = "Florisbad skull. From Flickr" width = "400" height = "400">
+
+
+Today’s fossil were found in 1932 near Bloemfontein, South Africa by Thomas Dryer. 
+
+
+```{r  echo=FALSE}
+
+Florisbad <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= 26.066667, lat= --28.766667, popup="aprox location of Florisbad") %>% setView(lng= 26.066667, lat= --28.766667, zoom = 2)
+
+Florisbad
+```
+
+
+The frontal bone of the cranium is fairly intact. While the left supraorbital portion is gone, the right side is undamaged (the right zygomatic was also recovered, though it is damaged and can not be contacted with the main part of the fossil^[Also,   portions of the nasal bones were apparently used in an earlier dating attempt]). A right third molar, was found near the skull. The tooth was directly dated with ESR to 259,000 ± 35,000 bp (Grün et al., 1996). The face itself is quite massive and has a thick browridge and some postorbital constriction. Its cranial capaciy is ~ 1400 cm^3^. 
+[Palaeopathological studies](https://www.ncbi.nlm.nih.gov/pubmed/20727570) show lesions, alveolar resorption, and antemortem tooth loss. Data point to conditions such as a blood  disorder, a metabolic condition, or infection after trauma.  Florisbad  seems to have suffered from  non-fatal, but also non-trivial pathological disorders, which helps us to understand  early human ecology lifeways. 
+
+There is some evidence to suggest that the fauna, including the hominid fossils, were accumulated due to carnivore action and the cranium may have been chewed on by a hyena.
+
+
+Associated with a lithic assemblage that has been described as [Middle Stone Age](http://hesp.irmacs.sfu.ca/sites/hesp.irmacs.sfu.ca/files/kuman_1986_-_new_investigations_at_florisbad.pdf). The presence of stone tools at the site suggest a more complex taphonomy.
+
+When they were first described, Dryer noted  ‘primitive’ traits and proposed the name *Homo (Africanthropus) helmei*.^[As with *A. boisei, the species name helmei is named after the person who helped to fund the dig, [Captain Egerton Helme](https://www.tandfonline.com/doi/abs/10.1080/00359193709519748?journalCode=ttrs20).] 
+
+While not as well known as some other species, *H. helmei* is considered by some to be the direct ancestor of both modern humans and Neandertals. Meanwhile, a more recent paper considered the skull to be an [example of a "primitive *H. sapiens*](https://www.ncbi.nlm.nih.gov/pubmed/28593953).
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+
+
