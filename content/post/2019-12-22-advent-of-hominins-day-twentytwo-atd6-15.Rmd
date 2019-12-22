@@ -1,0 +1,67 @@
+---
+title: advent-of-hominins-day-twentytwo-ATD6-15
+author: Marc Kissel
+date: '2019-12-22'
+slug: advent-of-hominins-day-twentytwo-atd6-15
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# ATD6-15 and ATD6-69 
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+
+
+
+<img src ="/img/ATD_6-15.jpg" title = "ATD6-15 and ATD6-69. From https://australianmuseum.net.au/" width = "400" height  ="400" >
+
+
+These two fossils (a frontal and a maxilla) are from the site of Gran Dolina in the Sierra de Atapuerca of northern Spain. They come from the TD6 layer, recently dated to ~949–772 kya. 
+
+. 
+
+```{r  echo=FALSE}
+
+atd <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= -3.522222, lat= 42.366667, popup="aprox location of Gran Dolina") %>% setView(lng= -3.522222, lat= 42.366667, zoom = 2)
+
+atd
+```
+
+
+ATD6-15 (the frontal) may have been from an individual between 10-12 years old at death. It
+has a projecting, yet somewhat thin, browridge that is ‘double-arched’, a pattern is seen in later Neandertals. Based on its size and shape, the cranial capacity is larger than 1000 cm^3^
+
+
+The maxilla fragment (ATD6-69) has several teeth Its canine fossa (a depression below the orbit & above the canine) and midface prognathism  mostly resembles the midfacial pattern seen in modern humans. Because of this, some scholars suggest it looks more ‘modern’ than the Neandertal midface does. 
+
+
+Due to its age and unique morphological features, some have argued it belongs to a new species, *H. antecessor*, proposed to represent the last
+common ancestor of *H. sapiens* and Neandertals. 
+
+Interestingly some of the hominin remains show cut marks, suggesting that cannibalism may have occurred. According to [Fernández-Jalvo et al.](https://www.ncbi.nlm.nih.gov/pubmed/10497001), The butchery techniques used to deflesh the hominins at TD6 were aimed at meat and marrow extraction. 
+
+
+They suggest the cannibalism was a conscious
+decision on the part of the hominins living at TD6 to prevent their enemies from outcompeting them. This would imply exocannibalism, eating people outside one's own group. The authors imply the cannibalistic behavior associated with *H. antecessor* may have been part of a system of values &  within that society. Intriguingly, Keith Otterbein suggests that the behavior of the hominins of level TD6 at Gran Dolina might constitute the earliest archaeologically documented evidence of warfare. This is not well-accepted but is a provocative hypothesis for sure!
+
+
+
+
+
+
+
+
+ 
+
