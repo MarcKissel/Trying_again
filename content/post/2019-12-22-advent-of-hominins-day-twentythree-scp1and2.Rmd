@@ -1,0 +1,61 @@
+---
+title: advent-of-hominins-day-twentythree-SCP1and2
+author: Marc Kissel
+date: '2019-12-22'
+slug: advent-of-hominins-day-twentythree-scp1and2
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# Saccopastore 1 & 2
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+<img src ="/img/Saccopastore12.jpg" title = " Saccopastore 1 (top) and Saccopastore (2). From Bruner and Manzi 2008" width = "400" height  ="400">
+
+These 2 skulls were found in 1929 and 1935, within gravel beds exposed by quarrying along a River Valley north of Rome.
+
+```{r  echo=FALSE}
+
+sac <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= 12.716667, lat= 41.9, popup="aprox location of Saccopastore") %>% setView(lng= 12.716667, lat= 41.9, zoom = 2)
+
+sac
+```
+
+
+
+
+
+SCP 1 is an adult female. It is missing both zygomatic arches but otherwise fairly complete. Interestingly some damage was caused when it was discovered by the people working in the quarry. The supraorbital region was heavily damaged and two holes were produced in the frontal portion of the vault. Cranial capacity ~1,174 cm^3^  and  its facial size is large. Its teeth are small compared to the classic Neandertals.
+
+
+
+
+SCP 2 is an adult male and also well preserved, though less complete than SCP 1. The top of the head is missing and much of the base is also gone. Its cranial capacity is ~ 1300^3^. 
+
+
+As shown by [Bruner and Manzi ]( https://www.ncbi.nlm.nih.gov/pubmed/18178238)  in a study of the endocranium of SCP1, the way the frontal and parietal areas of the brain developed is very similar to that seen in later ‘classic’ Neandertal such as La Chapelle-aux-Saints and La Ferrassie, which also have skulls that are ‘long, low, and broad. Both the skulls have well-developed brow ridges.
+
+
+These characteristics link them to the classic Neandertals of Europe. Originally dated to 130 kya, [recent work](https://www.thelocal.it/20151104/italy-dates-its-first-neanderthal-to-250k-years-ago) suggests a date of closer to 250 kya, making them the earliest Neandertals in Italy
+
+Why does this matter? It suggests that as early as 250 ka, Neandertals, or their predecessors  had well-defined brain morphology. 
+
+One fascinating bit of trivia is that during the German occupation of Italy, some Germans were seeking the skulls as "fossil treasures." A professor had them [hidden in a shopping basket](http://accuca.conectia.es/111005skulls.htm) and sent to a church for safe-keeping below the altar. 
+
+ 
+
+
+
+
