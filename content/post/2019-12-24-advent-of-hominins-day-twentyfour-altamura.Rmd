@@ -1,0 +1,54 @@
+---
+title: advent-of-hominins-day-twentyfour-Altamura
+author: Marc Kissel
+date: '2019-12-24'
+slug: advent-of-hominins-day-twentyfour-altamura
+categories:
+  - Advent_of_hominins
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+```{r need lib,  include=FALSE}
+library(tidyverse)
+library(leaflet)
+```
+
+
+advent-of-hominins-day-twentyfour-Altamura
+
+
+ 
+<img src ="/img/Altamura_abcNETAU.jpg" title = "calcite formations around the skeleton. Image from Museo Archeologico di Altamura: Soprintendenza Archeologia della Puglia" width = "400" height  ="400">
+
+Sometimes called "Alatmura Man", this fossil is a Neandertal skeleton discovered in 1993 by cavers exploring a 26-foot-deep well. The fossil was found in a tunnel which lead to a cave full of stalagmites. Inside this cave, the explorers  stumbled upon a skeleton that was covered in [coralloid formations]( http://www.goodearthgraphics.com/virtcave/coral/coral.html), cave formations which resemble coral. This explains why it looks so odd.
+
+
+
+```{r  echo=FALSE}
+
+sac <- leaflet()  %>% 
+  addTiles() %>%  
+  addMarkers(lng= 16.55, lat= 40.817, popup="aprox location of Alatmura ") %>% setView(lng= 16.55, lat= 40.817, zoom = 2)
+
+sac
+```
+
+What stands out about this specimen is, of course, its unique preservation: The skeleton is partly incorporated into the calcite concretions making it difficult to study. Based on the layout of the bones, some scholars have suggested that Neandertal died where they were found and the bones were not transported by water or other animals. He may have gotten stuck in the cave and died there.
+
+
+Due to this unique preservation (plus the planning and care needed when working with bio-culutral heritage fossils), the skeleton has not been moved. However, many of the bones are visible including the head, jaw, and parts of the postcranial. While unexcavated, observations of the facial region have suggested that it fits into the known Neandertal sample. However, the shape of the browridge and the general shape of the cranial vault suggest that it isn’t a ["classic" Neandertal](https://www.nhm.ac.uk/discover/who-were-the-neanderthals.html). This is similar to what is seen in other early Neandertals such as [Saccopastore](https://marckissel.netlify.com/post/advent-of-hominins-day-twentythree-scp1and2/). 
+
+
+Recently, part of the shoulder blade has been extracted [and studied](https://www.sciencedirect.com/science/article/abs/pii/S0277379118308229). Scientists showed the scapula was similar to other Neandertals for the most part, but shows the existences of some regional variation, especially in regard to the morphology of one of the borders (edges) of the bone.
+
+
+In order to discern its geologic age, scientists  received permission to remove a small sample of bone from the scapula for dating purposes and found it dated to 187,000 to 129,000 years ago. They were able to obtain a short sequence of the mitochondrial DNA. The genetic sample falls within the variation known for Neandertals and is distinct from human and [Denisovan](https://www.nature.com/articles/d41586-019-01395-0) samples. 
+
+Artists [Adrie and Alfons Kennis]( https://www.kenniskennis.com/site/sculptures/Neanderthal%20Altamura/) used the morphological data to reconstruct what he looked like in life. Check out [the link](https://www.kenniskennis.com/site/sculptures/Neanderthal%20Altamura/) to see their reconstruction of this and other hominin fossils
+
+
+(Short post today due to family vacation)
