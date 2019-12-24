@@ -31,7 +31,7 @@ Today’s fossil were found in 1932 near Bloemfontein, South Africa by Thomas Dr
 
 Florisbad <- leaflet()  %>% 
   addTiles() %>%  
-  addMarkers(lng= 26.066667, lat= --28.766667, popup="aprox location of Florisbad") %>% setView(lng= 26.066667, lat= --28.766667, zoom = 2)
+  addMarkers(lng= 26.066667, lat= -28.766667, popup="aprox location of Florisbad") %>% setView(lng= 26.066667, lat= -28.766667, zoom = 2)
 
 Florisbad
 ```
