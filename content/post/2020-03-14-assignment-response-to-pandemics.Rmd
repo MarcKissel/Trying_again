@@ -1,0 +1,63 @@
+---
+title: Assignment-response-to-pandemics.
+author: Marc
+date: '2020-03-14'
+slug: assignment-response-to-pandemics
+categories:
+  - Teaching
+tags: []
+header:
+  caption: ''
+  image: ''
+---
+
+# How we can response to pandemics
+
+## Goal
+
+Learn about previous responses to pandemics and how biological anthropology can help us to respond to covid-1919.  
+
+*As a team we want to think about what the response to the 1918 Flu tells us and how it can be used.*
+
+## Tasks
+
+
+1.  **Question to answer before this assignment**
+
+Don’t worry if you don’t know the answers here. This is just to get you thinking…
+
++ 	Why did AppState move all classes online?
+
++ 	What might be some unintended consequences of closing the university?
+
++ 	What can people do to mitigate the spread of coronavirus
+
+
+
+2. **Read this post from the Smithsonian:** https://www.smithsonianmag.com/history/philadelphia-threw-wwi-parade-gave-thousands-onlookers-flu-180970372/
+
+
+3.	**Read this scientific paper.** Do your best to get the gist of the paper and what the authors are trying to say https://www.pnas.org/content/pnas/104/18/7582.full.pdf
+
+
+4.	**Questions to answer after reading the 2 papers**
+
+Some of these questions might need you to find more information online
+
+
++ 	What can anthropology tell us about the way to help people understand and respond to epidemics and pandemics?
++ 	What are examples of nonpharmaceutical interventions such as social distancing? What examples are in place now? 
++ 	What makes something a pandemic?
++ 	Google the phrase “flattening the curve”. What does this mean
++ 	How, if at all, have your thoughts on this changed from before you read and thought about these readings
+
+5.	**Now, do some research and find out how different parts of the world are dealing with the current outbreak.**
+
+ You can pick a single instance or look at different responses by communities. This can take multiple forms. You could look at the racialized aspects, the response by governments/NGOs/insurance companies/school boards. One example is this from New York: 
+https://www.cnbc.com/2020/03/10/new-york-gov-cuomo-to-deploy-national-guard-to-new-rochelle-establishes-containment-center-to-stem-coronavirus.html
+
+
++ 	Take some notes and find sources that discuss the example you found. Note where it is happening, what is being done, and how the details from the articles we read help us to understand what a ‘good’ response would be
+
++ 	Write up what you have learned. There is no set format, word count, or expectations here. I just want to learn what you found out. We will share what we learned on a Google Doc
+
