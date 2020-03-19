@@ -11,18 +11,18 @@ header:
   image: ''
 ---
 
-# How we can response to pandemics
+# How we can respond to pandemics
 
 ## Goal
 
 Learn about previous responses to pandemics and how biological anthropology can help us to respond to covid-1919.  
 
-*As a team we want to think about what the response to the 1918 Flu tells us and how it can be used.*
+*As a team we want to think about what the response to other pandemics tells us and how it can be used.*
 
 ## Tasks
 
 
-1.  **Question to answer before this assignment**
+1.  **Questions to answer before this assignment**
 
 Don’t worry if you don’t know the answers here. This is just to get you thinking…
 
@@ -59,5 +59,5 @@ https://www.cnbc.com/2020/03/10/new-york-gov-cuomo-to-deploy-national-guard-to-n
 
 + 	Take some notes and find sources that discuss the example you found. Note where it is happening, what is being done, and how the details from the articles we read help us to understand what a ‘good’ response would be
 
-+ 	Write up what you have learned. There is no set format, word count, or expectations here. I just want to learn what you found out. We will share what we learned on a Google Doc
++ 	Write up what you have learned. There is no set format, word count, or expectations here. I just want to learn what you found out. We will share what we learned
 
